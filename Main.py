@@ -29,14 +29,14 @@ def save_oauth_token(token):
         token_updated = False
         for line in lines:
             if line.startswith('oauth_token='):
-                f.write(f"oauth_token={token}\n")
+                f.write(f"\noauth_token={token}\n")
                 token_updated = True
             else:
                 f.write(line)
         
         # Si aucune ligne de token n'a été trouvée, on l'ajoute à la fin
         if not token_updated:
-            f.write(f"oauth_token={token}\n")
+            f.write(f"\noauth_token={token}\n")
 
 # Générer un état aléatoire pour éviter les attaques CSRF
 def generate_state(length=16):
@@ -145,7 +145,7 @@ def main():
             print("Impossible de récupérer le token OAuth.")
             return
 
-    channel = 'loinduciel'
+    channel = 'texzzzzzz'
     bot = Bot(channel, oauth_token)
     bot.run()
 
