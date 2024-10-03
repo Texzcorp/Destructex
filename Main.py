@@ -8,8 +8,8 @@ app = Flask(__name__)
 
 # Classe Bot utilisant TwitchIO
 class Bot(commands.Bot):
-    def __init__(self, channel, oauth_token):
-        super().__init__(token=oauth_token, prefix='!', initial_channels=[channel])
+    def __init__(self, channel, token):
+        super().__init__(token=token, prefix='!', initial_channels=[channel])
         self.channel = channel
 
     async def event_ready(self):
@@ -49,7 +49,6 @@ def run_bot(channel, token):
     bot = Bot(channel, token)
     bot.run()
 
-# Route API pour démarrer le bot
 @app.route('/start-bot', methods=['POST'])
 def start_bot():
     data = request.get_json()
@@ -59,9 +58,7 @@ def start_bot():
     if not channel or not token:
         return jsonify({"message": "Channel ou token manquant."}), 400
 
-    # Lancer le bot dans un thread séparé
     threading.Thread(target=run_bot, args=(channel, token)).start()
-
     return jsonify({"message": f"Bot démarré pour le channel {channel}."})
 
 if __name__ == '__main__':

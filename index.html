@@ -24,7 +24,7 @@
     </style>
 </head>
 <body>
-    <h1>Configurer le Bot Twitch v005</h1>
+    <h1>Configurer le Bot Twitch</h1>
     <div id="s-login" class="active">
         <button id="login">Se connecter à Twitch</button>
     </div>
@@ -40,8 +40,8 @@
     <script>
         (() => {
             const TwitchAuth = {
-                clientId: 'xmezn3bhtuaef389py1qirybnb26t9', // Remplace par ton client ID
-                redirectUri: 'https://texzcorp.github.io/Destructex/', // Remplace par ton URL GitHub Pages
+                clientId: 'ton_client_id', // Remplace par ton client ID
+                redirectUri: window.location.origin + window.location.pathname, // Utilise l'URL actuelle
             };
 
             const authorizeUrl = new URL('https://id.twitch.tv/oauth2/authorize');
@@ -51,7 +51,7 @@
             authorizeUrl.searchParams.append('scope', 'chat:read chat:edit');
 
             const openTwitchAuth = () => {
-                window.open(authorizeUrl.toString(), 'TwitchAuth');
+                window.location.href = authorizeUrl.toString(); // Redirection directe
             };
 
             const saveDataToStorage = (name, data) => {
@@ -86,17 +86,16 @@
             };
 
             const authorizationHandler = () => {
-                if (window.opener) {
+                if (window.location.hash) {
                     const token = window.location.hash.split('&')[0].split('=')[1];
                     if (token) {
                         saveDataToStorage('sTKN', token);
-                        window.opener.sessionHandler();
+                        sessionHandler();
                     } else {
-                        window.opener.console.error('Authorization failed.');
+                        console.error('Authorization failed.');
                     }
-                    window.close();
+                    window.history.pushState("", document.title, window.location.pathname); // Nettoyer l'URL après avoir récupéré le token
                 }
-                window.removeEventListener('load', authorizationHandler);
             };
 
             window.sessionHandler = async () => {
@@ -118,7 +117,6 @@
                         console.error('Une erreur s\'est produite.');
                     }
                 }
-                window.removeEventListener('load', sessionHandler);
             };
 
             const revokeAccess = () => {
@@ -136,8 +134,7 @@
 
             const startBot = (channel, token) => {
                 logMessage('Connexion au bot...');
-                // Envoyer les données au backend via une requête
-                fetch('/start-bot', {
+                fetch('http://localhost:8080/start-bot', { // Remplace par l'URL de ton backend
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
