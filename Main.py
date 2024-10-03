@@ -59,7 +59,7 @@ def start_bot():
     if not channel or not token:
         return jsonify({"message": "Channel ou token manquant."}), 400
 
-    # Lancer le bot dans un thread séparé pour ne pas bloquer l'API
+    # Lancer le bot dans un thread séparé
     threading.Thread(target=run_bot, args=(channel, token)).start()
 
     return jsonify({"message": f"Bot démarré pour le channel {channel}."})

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twitch Bot Setup avec Logs</title>
+    <title>Twitch Bot Setup</title>
     <style>
         #log {
             width: 100%;
@@ -13,93 +13,148 @@
             overflow-y: scroll;
             background-color: #f1f1f1;
         }
+
+        .active {
+            display: block;
+        }
+
+        .hidden {
+            display: none;
+        }
     </style>
 </head>
 <body>
     <h1>Configurer le Bot Twitch</h1>
-    <form id="twitch-form">
-        <label for="channel">Nom du Channel Twitch:</label><br>
-        <input type="text" id="channel" name="channel" placeholder="Entrez le nom du channel"><br><br>
-        <button type="button" onclick="startAuth()">Se connecter à Twitch</button>
-    </form>
-    
+    <div id="s-login" class="active">
+        <button id="login">Se connecter à Twitch</button>
+    </div>
+
+    <div id="s-account" class="hidden">
+        <p>Connecté en tant que : <span id="username"></span></p>
+        <button id="revoke">Se déconnecter</button>
+    </div>
+
     <h2>Logs</h2>
     <div id="log">En attente de démarrage...</div>
 
     <script>
-        function startAuth() {
-            const clientId = 'xmezn3bhtuaef389py1qirybnb26t9'; // Remplace par ton client_id
-            const redirectUri = 'https://{TON_USER}.github.io/{REPO_NAME}/'; // Remplace par l'URL GitHub Pages de ton dépôt
-            const scope = 'chat:read chat:edit';
-            const state = Math.random().toString(36).substring(7); // Générer un état aléatoire pour CSRF
+        (() => {
+            const TwitchAuth = {
+                clientId: 'ton_client_id', // Remplace par ton client ID
+                redirectUri: 'https://{TON_USER}.github.io/{REPO_NAME}/', // Remplace par ton URL GitHub Pages
+            };
 
-            const channel = document.getElementById('channel').value;
-            if (channel === '') {
-                alert('Veuillez entrer un nom de channel.');
-                return;
-            }
+            const authorizeUrl = new URL('https://id.twitch.tv/oauth2/authorize');
+            authorizeUrl.searchParams.append('client_id', TwitchAuth.clientId);
+            authorizeUrl.searchParams.append('redirect_uri', TwitchAuth.redirectUri);
+            authorizeUrl.searchParams.append('response_type', 'token');
+            authorizeUrl.searchParams.append('scope', 'chat:read chat:edit');
 
-            // Enregistrer le channel dans le localStorage pour qu'il soit utilisé après redirection
-            localStorage.setItem('twitch_channel', channel);
+            const openTwitchAuth = () => {
+                window.open(authorizeUrl.toString(), 'TwitchAuth');
+            };
 
-            // Créer l'URL d'autorisation
-            const authUrl = `https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&scope=${scope}&state=${state}`;
-            
-            // Rediriger l'utilisateur vers l'URL d'autorisation
-            window.location.href = authUrl;
-        }
+            const saveDataToStorage = (name, data) => {
+                localStorage.setItem(name, data);
+            };
 
-        // Lors du retour après autorisation
-        window.onload = function() {
-            const hash = window.location.hash.substr(1);
-            const result = hash.split('&').reduce(function (res, item) {
-                const parts = item.split('=');
-                res[parts[0]] = parts[1];
-                return res;
-            }, {});
+            const getTokenFromStorage = () => {
+                return localStorage.getItem('sTKN');
+            };
 
-            const token = result['access_token'];
-            if (token) {
-                const channel = localStorage.getItem('twitch_channel');
-                if (channel) {
-                    // Stocker le token et le channel pour le bot
-                    localStorage.setItem('oauth_token', token);
-                    localStorage.setItem('channel', channel);
+            const updateUIForLoggedInUser = (username) => {
+                document.getElementById('username').innerText = username;
+                document.getElementById('s-login').classList.add('hidden');
+                document.getElementById('s-account').classList.remove('hidden');
+            };
 
-                    logMessage(`Bot configuré pour le channel ${channel}. Token récupéré.`);
-                    
-                    // Appeler une fonction de démarrage du bot avec le token et le channel
-                    startBot(channel, token);
-                } else {
-                    logMessage('Channel non trouvé.');
+            const updateUIForLoggedOutUser = () => {
+                document.getElementById('s-account').classList.add('hidden');
+                document.getElementById('username').innerText = '';
+                document.getElementById('s-login').classList.remove('hidden');
+            };
+
+            const validateTokenAndGetData = async (token) => {
+                const response = await fetch('https://id.twitch.tv/oauth2/validate', {
+                    headers: {
+                        Authorization: `OAuth ${token}`,
+                    },
+                });
+
+                const data = await response.json();
+                return data.client_id === TwitchAuth.clientId ? data : false;
+            };
+
+            const authorizationHandler = () => {
+                if (window.opener) {
+                    const token = window.location.hash.split('&')[0].split('=')[1];
+                    if (token) {
+                        saveDataToStorage('sTKN', token);
+                        window.opener.sessionHandler();
+                    } else {
+                        window.opener.console.error('Authorization failed.');
+                    }
+                    window.close();
                 }
-            }
-        };
+                window.removeEventListener('load', authorizationHandler);
+            };
 
-        // Fonction pour logguer des messages sur l'interface
-        function logMessage(message) {
-            const logDiv = document.getElementById('log');
-            const currentTime = new Date().toLocaleTimeString();
-            logDiv.innerHTML += `[${currentTime}] ${message}<br>`;
-            logDiv.scrollTop = logDiv.scrollHeight;  // Scroller vers le bas automatiquement
-        }
+            window.sessionHandler = async () => {
+                const token = getTokenFromStorage();
+                if (token) {
+                    try {
+                        const data = await validateTokenAndGetData(token);
+                        if (data) {
+                            saveDataToStorage('sUSR', data.login);
+                            saveDataToStorage('sCID', data.client_id);
+                            updateUIForLoggedInUser(data.login);
 
-        // Simuler l'exécution du bot et afficher les logs
-        function startBot(channel, token) {
-            logMessage('Connexion au bot...');
-            
-            // Envoyer les données au backend via une requête (à implémenter)
-            fetch('/start-bot', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ channel: channel, token: token })
-            })
-            .then(response => response.json())
-            .then(data => logMessage(data.message))
-            .catch(error => logMessage(`Erreur: ${error}`));
-        }
+                            // Lancer le bot après connexion réussie
+                            startBot(data.login, token);
+                        } else {
+                            revokeAccess();
+                        }
+                    } catch (error) {
+                        console.error('Une erreur s\'est produite.');
+                    }
+                }
+                window.removeEventListener('load', sessionHandler);
+            };
+
+            const revokeAccess = () => {
+                updateUIForLoggedOutUser();
+                localStorage.clear();
+                location.reload();
+            };
+
+            const logMessage = (message) => {
+                const logDiv = document.getElementById('log');
+                const currentTime = new Date().toLocaleTimeString();
+                logDiv.innerHTML += `[${currentTime}] ${message}<br>`;
+                logDiv.scrollTop = logDiv.scrollHeight;
+            };
+
+            const startBot = (channel, token) => {
+                logMessage('Connexion au bot...');
+                // Envoyer les données au backend via une requête
+                fetch('/start-bot', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ channel, token }),
+                })
+                    .then((response) => response.json())
+                    .then((data) => logMessage(data.message))
+                    .catch((error) => logMessage(`Erreur: ${error}`));
+            };
+
+            document.getElementById('login').addEventListener('click', openTwitchAuth);
+            document.getElementById('revoke').addEventListener('click', revokeAccess);
+
+            window.addEventListener('load', authorizationHandler);
+            window.addEventListener('load', sessionHandler);
+        })();
     </script>
 </body>
 </html>
