@@ -28,8 +28,8 @@
 
     <script>
         function startAuth() {
-            const clientId = 'xmezn3bhtuaef389py1qirybnb26t9'; // Ton client_id
-            const redirectUri = 'https://texzcorp.github.io/Destructex'; // Remplace par l'URL GitHub Pages
+            const clientId = 'xmezn3bhtuaef389py1qirybnb26t9'; // Remplace par ton client_id
+            const redirectUri = 'https://{TON_USER}.github.io/{REPO_NAME}/'; // Remplace par l'URL GitHub Pages de ton dépôt
             const scope = 'chat:read chat:edit';
             const state = Math.random().toString(36).substring(7); // Générer un état aléatoire pour CSRF
 
@@ -87,32 +87,18 @@
         // Simuler l'exécution du bot et afficher les logs
         function startBot(channel, token) {
             logMessage('Connexion au bot...');
-            // Simuler la connexion au bot
-            setTimeout(() => {
-                logMessage(`Bot connecté au channel: ${channel}`);
-                simulateChatMessages();
-            }, 1000);
-        }
-
-        // Simuler des messages de chat détectés
-        function simulateChatMessages() {
-            const messages = [
-                'Salut tout le monde!',
-                'Comment ça va?',
-                'On parle de quoi aujourd\'hui?',
-                'J\'adore ce stream!'
-            ];
-
-            let messageIndex = 0;
-            const messageInterval = setInterval(() => {
-                if (messageIndex < messages.length) {
-                    logMessage(`Message détecté: ${messages[messageIndex]}`);
-                    messageIndex++;
-                } else {
-                    clearInterval(messageInterval);
-                    logMessage('Fin des messages simulés.');
-                }
-            }, 2000);
+            
+            // Envoyer les données au backend via une requête (à implémenter)
+            fetch('/start-bot', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ channel: channel, token: token })
+            })
+            .then(response => response.json())
+            .then(data => logMessage(data.message))
+            .catch(error => logMessage(`Erreur: ${error}`));
         }
     </script>
 </body>
