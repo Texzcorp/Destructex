@@ -18,10 +18,25 @@ def load_config():
                 config[key.strip()] = value.strip()
     return config
 
-# Fonction pour sauvegarder le token OAuth dans le fichier config.txt
+# Fonction pour sauvegarder le token OAuth dans le fichier config.txt (remplace l'ancien)
 def save_oauth_token(token):
-    with open('config.txt', 'a', encoding='utf-8') as f:
-        f.write(f"\noauth_token={token}\n")
+    lines = []
+    with open('config.txt', 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+
+    # On cherche à remplacer la ligne contenant le token OAuth s'il existe déjà
+    with open('config.txt', 'w', encoding='utf-8') as f:
+        token_updated = False
+        for line in lines:
+            if line.startswith('oauth_token='):
+                f.write(f"oauth_token={token}\n")
+                token_updated = True
+            else:
+                f.write(line)
+        
+        # Si aucune ligne de token n'a été trouvée, on l'ajoute à la fin
+        if not token_updated:
+            f.write(f"oauth_token={token}\n")
 
 # Générer un état aléatoire pour éviter les attaques CSRF
 def generate_state(length=16):
