@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twitch Bot Setup</title>
+    <title>Twitch Bot Setup avec Logs</title>
+    <style>
+        #log {
+            width: 100%;
+            height: 300px;
+            border: 1px solid black;
+            padding: 10px;
+            overflow-y: scroll;
+            background-color: #f1f1f1;
+        }
+    </style>
 </head>
 <body>
     <h1>Configurer le Bot Twitch</h1>
@@ -12,6 +22,9 @@
         <input type="text" id="channel" name="channel" placeholder="Entrez le nom du channel"><br><br>
         <button type="button" onclick="startAuth()">Se connecter à Twitch</button>
     </form>
+    
+    <h2>Logs</h2>
+    <div id="log">En attente de démarrage...</div>
 
     <script>
         function startAuth() {
@@ -53,13 +66,54 @@
                     localStorage.setItem('oauth_token', token);
                     localStorage.setItem('channel', channel);
 
-                    alert(`Bot configuré pour le channel ${channel}. Token récupéré.`);
-                    // Ici, tu pourrais appeler ton bot avec les données via un serveur
+                    logMessage(`Bot configuré pour le channel ${channel}. Token récupéré.`);
+                    
+                    // Appeler une fonction de démarrage du bot avec le token et le channel
+                    startBot(channel, token);
                 } else {
-                    alert('Channel non trouvé.');
+                    logMessage('Channel non trouvé.');
                 }
             }
         };
+
+        // Fonction pour logguer des messages sur l'interface
+        function logMessage(message) {
+            const logDiv = document.getElementById('log');
+            const currentTime = new Date().toLocaleTimeString();
+            logDiv.innerHTML += `[${currentTime}] ${message}<br>`;
+            logDiv.scrollTop = logDiv.scrollHeight;  // Scroller vers le bas automatiquement
+        }
+
+        // Simuler l'exécution du bot et afficher les logs
+        function startBot(channel, token) {
+            logMessage('Connexion au bot...');
+            // Simuler la connexion au bot
+            setTimeout(() => {
+                logMessage(`Bot connecté au channel: ${channel}`);
+                simulateChatMessages();
+            }, 1000);
+        }
+
+        // Simuler des messages de chat détectés
+        function simulateChatMessages() {
+            const messages = [
+                'Salut tout le monde!',
+                'Comment ça va?',
+                'On parle de quoi aujourd\'hui?',
+                'J\'adore ce stream!'
+            ];
+
+            let messageIndex = 0;
+            const messageInterval = setInterval(() => {
+                if (messageIndex < messages.length) {
+                    logMessage(`Message détecté: ${messages[messageIndex]}`);
+                    messageIndex++;
+                } else {
+                    clearInterval(messageInterval);
+                    logMessage('Fin des messages simulés.');
+                }
+            }, 2000);
+        }
     </script>
 </body>
 </html>
