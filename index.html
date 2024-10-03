@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitch Bot Setup</title>
+</head>
+<body>
+    <h1>Configurer le Bot Twitch</h1>
+    <form id="twitch-form">
+        <label for="channel">Nom du Channel Twitch:</label><br>
+        <input type="text" id="channel" name="channel" placeholder="Entrez le nom du channel"><br><br>
+        <button type="button" onclick="startAuth()">Se connecter à Twitch</button>
+    </form>
+
+    <script>
+        // Fonction pour récupérer les données du fichier config.txt
+        async function getConfig() {
+            const response = await fetch('config.txt');
+            const configText = await response.text();
+            const config = {};
+
+            // Parse le fichier config
+            configText.split('\n').forEach(line => {
+                const [key, value] = line.split('=');
+                if (key && value) {
+                    config[key.trim()] = value.trim();
+                }
+            });
+
+            return config;
+        }
+
+        // Fonction pour lancer l'authentification Twitch
+        async function startAuth() {
+            const config = await getConfig();
+            const clientId = config['client_id'];
+            const redirectUri = config['redirect_uri'];
+            const scope = config['scope'];
+            const state = Math.random().toString(36).substring(7);
+
+            const channel = document.getElementById('channel').value;
+            if (channel === '') {
+                alert('Veuillez entrer un nom de channel.');
+                return;
+            }
+
+            // Enregistrer le channel dans le localStorage
+            localStorage.setItem('twitch_channel', channel);
+
+            // Créer l'URL d'autorisation
+            const authUrl = `https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&scope=${scope}&state=${state}`;
+            
+            // Rediriger l'utilisateur vers l'URL d'autorisation
+            window.location.href = authUrl;
+        }
+
+        // Lors du retour après autorisation
+        window.onload = function() {
+            const hash = window.location.hash.substr(1);
+            const result = hash.split('&').reduce(function (res, item) {
+                const parts = item.split('=');
+                res[parts[0]] = parts[1];
+                return res;
+            }, {});
+
+            const token = result['access_token'];
+            if (token) {
+                const channel = localStorage.getItem('twitch_channel');
+                if (channel) {
+                    localStorage.setItem('oauth_token', token);
+                    localStorage.setItem('channel', channel);
+
+                    alert(`Bot configuré pour le channel ${channel}. Token récupéré.`);
+                    // Ici, tu pourrais appeler ton bot avec les données via un serveur
+                } else {
+                    alert('Channel non trouvé.');
+                }
+            }
+        };
+    </script>
+</body>
+</html>
