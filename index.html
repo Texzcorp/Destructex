@@ -8,55 +8,95 @@
 <body>
     <h1>Configurer le Bot Twitch</h1>
     <form id="twitch-form">
-        <label for="channel">Nom du Channel Twitch:</label><br>
+        <label for="config-path">Chemin du fichier config.txt :</label><br>
+        <input type="text" id="config-path" name="config-path" placeholder="Entrez le chemin du fichier config.txt"><br><br>
+
+        <label for="channel">Nom du Channel Twitch :</label><br>
         <input type="text" id="channel" name="channel" placeholder="Entrez le nom du channel"><br><br>
+
         <button type="button" onclick="startAuth()">Se connecter à Twitch</button>
     </form>
 
     <script>
+        // Fonction pour sauvegarder les données dans le localStorage
+        function saveToLocalStorage(key, value) {
+            localStorage.setItem(key, value);
+        }
+
+        // Fonction pour charger les données depuis le localStorage
+        function loadFromLocalStorage(key, defaultValue = '') {
+            return localStorage.getItem(key) || defaultValue;
+        }
+
+        // Charger les valeurs enregistrées dans le localStorage
+        window.onload = function() {
+            const savedConfigPath = loadFromLocalStorage('config_path');
+            const savedChannel = loadFromLocalStorage('twitch_channel');
+
+            document.getElementById('config-path').value = savedConfigPath;
+            document.getElementById('channel').value = savedChannel;
+        };
+
         // Fonction pour récupérer les données du fichier config.txt
-        async function getConfig() {
-            const response = await fetch('config.txt');
-            const configText = await response.text();
-            const config = {};
+        async function getConfig(configPath) {
+            try {
+                const response = await fetch(configPath);
+                const configText = await response.text();
+                const config = {};
 
-            // Parse le fichier config
-            configText.split('\n').forEach(line => {
-                const [key, value] = line.split('=');
-                if (key && value) {
-                    config[key.trim()] = value.trim();
-                }
-            });
+                // Parse le fichier config
+                configText.split('\n').forEach(line => {
+                    const [key, value] = line.split('=');
+                    if (key && value) {
+                        config[key.trim()] = value.trim();
+                    }
+                });
 
-            return config;
+                return config;
+            } catch (error) {
+                alert('Impossible de charger le fichier config.txt. Vérifiez le chemin.');
+                throw error;
+            }
         }
 
         // Fonction pour lancer l'authentification Twitch
         async function startAuth() {
-            const config = await getConfig();
-            const clientId = config['client_id'];
-            const redirectUri = config['redirect_uri'];
-            const scope = config['scope'];
-            const state = Math.random().toString(36).substring(7);
-
+            const configPath = document.getElementById('config-path').value;
             const channel = document.getElementById('channel').value;
+
+            if (configPath === '') {
+                alert('Veuillez entrer le chemin du fichier config.txt.');
+                return;
+            }
+
             if (channel === '') {
                 alert('Veuillez entrer un nom de channel.');
                 return;
             }
 
-            // Enregistrer le channel dans le localStorage
-            localStorage.setItem('twitch_channel', channel);
+            // Sauvegarder le chemin du fichier config.txt et le channel dans le localStorage
+            saveToLocalStorage('config_path', configPath);
+            saveToLocalStorage('twitch_channel', channel);
 
-            // Créer l'URL d'autorisation
-            const authUrl = `https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&scope=${scope}&state=${state}`;
-            
-            // Rediriger l'utilisateur vers l'URL d'autorisation
-            window.location.href = authUrl;
+            try {
+                const config = await getConfig(configPath);
+                const clientId = config['client_id'];
+                const redirectUri = config['redirect_uri'];
+                const scope = config['scope'];
+                const state = Math.random().toString(36).substring(7);
+
+                // Créer l'URL d'autorisation
+                const authUrl = `https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&scope=${scope}&state=${state}`;
+
+                // Rediriger l'utilisateur vers l'URL d'autorisation
+                window.location.href = authUrl;
+            } catch (error) {
+                console.error('Erreur lors du chargement du fichier config.txt', error);
+            }
         }
 
         // Lors du retour après autorisation
-        window.onload = function() {
+        window.addEventListener('load', function() {
             const hash = window.location.hash.substr(1);
             const result = hash.split('&').reduce(function (res, item) {
                 const parts = item.split('=');
@@ -69,15 +109,12 @@
                 const channel = localStorage.getItem('twitch_channel');
                 if (channel) {
                     localStorage.setItem('oauth_token', token);
-                    localStorage.setItem('channel', channel);
-
                     alert(`Bot configuré pour le channel ${channel}. Token récupéré.`);
-                    // Ici, tu pourrais appeler ton bot avec les données via un serveur
                 } else {
                     alert('Channel non trouvé.');
                 }
             }
-        };
+        });
     </script>
 </body>
 </html>
