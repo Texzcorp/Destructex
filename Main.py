@@ -3,6 +3,7 @@ import urllib.parse
 import random
 import string
 import time
+import requests
 from twitchio.ext import commands
 from AnswerMaker import parse_message, generate_answer
 
@@ -16,6 +17,11 @@ def load_config():
                 key, value = line.split('=', 1)
                 config[key.strip()] = value.strip()
     return config
+
+# Fonction pour sauvegarder le token OAuth dans le fichier config.txt
+def save_oauth_token(token):
+    with open('config.txt', 'a', encoding='utf-8') as f:
+        f.write(f"\noauth_token={token}\n")
 
 # Générer un état aléatoire pour éviter les attaques CSRF
 def generate_state(length=16):
@@ -33,14 +39,20 @@ def create_authorization_url(client_id, redirect_uri, scope, state):
     }
     return f"{base_url}?{urllib.parse.urlencode(params)}"
 
-# Fonction pour extraire le token de l'URL de redirection (simulation d'extraction depuis une page web)
+# Fonction pour extraire le token de l'URL de redirection
 def extract_token_from_url():
-    # Ici on simule la récupération du token depuis le fragment de l'URL après authentification
     redirect_url = input("Copie-colle ici l'URL de redirection complète après l'autorisation : ")
     fragment = urllib.parse.urlparse(redirect_url).fragment
     params = dict(x.split('=') for x in fragment.split('&'))
     access_token = params.get('access_token', None)
     return access_token
+
+# Vérifier si le token OAuth est valide
+def is_token_valid(token):
+    validation_url = "https://id.twitch.tv/oauth2/validate"
+    headers = {"Authorization": f"OAuth {token}"}
+    response = requests.get(validation_url, headers=headers)
+    return response.status_code == 200
 
 # Classe Bot utilisant TwitchIO
 class Bot(commands.Bot):
@@ -99,31 +111,27 @@ def main():
     redirect_uri = config['redirect_uri']
     scope = config['scope']
     
-    # Générer un état unique
-    state = generate_state()
 
-    # Créer l'URL d'autorisation
-    auth_url = create_authorization_url(client_id, redirect_uri, scope, state)
-    
-    # Ouvrir l'URL dans un navigateur
-    webbrowser.open(auth_url)
-    
-    print("Une fois l'autorisation accordée, copiez l'URL complète de redirection et collez-la ici.")
+    oauth_token = config.get('oauth_token', None)
 
-    # Extraire le token de l'URL de redirection fournie par l'utilisateur
-    oauth_token = extract_token_from_url()
-
-    if oauth_token:
-        print(f"Access Token récupéré")
-        
-        # Spécifier le channel ici
-        channel = 'loinduciel'
-        
-        # Lancer le bot
-        bot = Bot(channel, oauth_token)
-        bot.run()
+    if oauth_token and is_token_valid(oauth_token):
+        print("Token OAuth valide.")
     else:
-        print("Impossible de récupérer le token. Vérifiez l'URL fournie.")
+        print("Token OAuth invalide ou inexistant. Génération d'un nouveau token.")
+        state = generate_state()
+        auth_url = create_authorization_url(client_id, redirect_uri, scope, state)
+        webbrowser.open(auth_url)
+        print("Une fois l'autorisation accordée, copiez l'URL complète de redirection et collez-la ici.")
+        if oauth_token:
+            print("Nouveau token OAuth récupéré.")
+            save_oauth_token(oauth_token)
+        else:
+            print("Impossible de récupérer le token OAuth.")
+            return
+
+    channel = 'loinduciel'
+    bot = Bot(channel, oauth_token)
+    bot.run()
 
 if __name__ == '__main__':
     main()
