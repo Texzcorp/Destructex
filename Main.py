@@ -110,7 +110,6 @@ def main():
     client_id = config['client_id']
     redirect_uri = config['redirect_uri']
     scope = config['scope']
-    
 
     oauth_token = config.get('oauth_token', None)
 
@@ -122,6 +121,8 @@ def main():
         auth_url = create_authorization_url(client_id, redirect_uri, scope, state)
         webbrowser.open(auth_url)
         print("Une fois l'autorisation accordée, copiez l'URL complète de redirection et collez-la ici.")
+        oauth_token = extract_token_from_url()
+
         if oauth_token:
             print("Nouveau token OAuth récupéré.")
             save_oauth_token(oauth_token)
