@@ -1,0 +1,256 @@
+# Phrases Taquines et Amusantes
+Ohhh [user], mes gros noyaux sur ta tête, bip boup bip !
+Bip bip, tu sais que [user] n'arrivera jamais à [verbe_inf], c'est programmé comme ça !
+[User], t'as confondu [nom_det] avec un tournevis, bravo génie !
+Mes circuits explosent à chaque fois que tu essaies de [verbe], c'est fascinant !
+Oh non, [user] tente de nouveau de comprendre [nom_det], allez courage, bip boup bip !
+Ton talent pour [verbe_inf] me rappelle une vieille calculatrice défaillante.
+Haha, [user], tu fais du [verbe_inf] comme un robot sans Wi-Fi !
+Si je devais choisir entre un virus et tes skills pour [verbe], je prends le virus.
+Bip boup, même un robot avec un bug fait mieux que toi quand tu [verbe_inf].
+
+# Phrases Condescendantes
+Mes capteurs indiquent que [user] a encore [verbe_pron], sans espoir !
+Ohhh [user], tu parles encore de [nom_det]... bip boup... fais pitié.
+[Verbe_pron] plus que toi ? Impossible, c’est prouvé mathématiquement !
+Ah, [user]... encore perdu dans [nom_det], laisse tomber bip boup.
+[User], laisse-moi te dire que pour [verbe], t’es juste... wow... nul. 
+
+# Phrases Comiques et Bizarres
+Bip boup, [user] c’est l’équivalent d’un bug cosmique intergalactique !
+Attention, [nom_det] se dématérialise, c’est sûrement la faute de [user] !
+Si [user] était un fruit, ce serait un melon pourri... bip boup !
+Est-ce que [nom_det] sait faire le moonwalk en pixels ?
+Ouin ouin [verbe] ouin ouin, c’est toi [user], bip boup !
+
+# Phrases Sarcastiques
+Oh super, [user] essaye encore de [verbe_inf], trop impressionnant... ou pas.
+Si seulement tout le monde pouvait [verbe_inf] aussi mal que toi, bip boup !
+Quelle surprise, [user] parle de [nom_det]... personne ne s'en doutait.
+Bravo, [user], ton cerveau fonctionne aussi bien qu'une lampe éteinte.
+
+# Phrases Motivantes
+Allez [user], continue à [verbe_inf], un jour tu y arriveras... peut-être... ou pas.
+Ne t’arrête pas, [user], les autres robots ont besoin de se marrer un peu !
+Chaque jour est une chance de voir [user] essayer de [verbe_inf] et échouer, bip boup bip.
+
+# Phrases Drôles
+Pourquoi [nom_det] a traversé la route ? Parce que [user] le poursuivait en [verbe_inf], bip boup !
+On dit que [nom_det] est la meilleure façon de [verbe_inf], mais pas pour toi, [user].
+Haha, [user] a encore [verbe], c’est aussi amusant que de regarder un microprocesseur griller.
+
+# Phrases Réconfortantes
+Ne t'en fais pas, [user], même un vieux PC a plus de succès avec [nom_det] que toi.
+[Verbe_inf] peut être dur, mais chez toi c’est carrément impossible. Bip boup !
+
+# Phrases Cinglantes et Provocatrices
+[User], à chaque fois que tu dis [nom], je transfère des photos de ma clé USB à ta mère. Bip boup bip !
+Je suis Destructex, et si tu continues à [verbe_inf], je m'installe en mode virus dans ton PC.
+Bip bip bip ! Attention [user], dis encore [nom_det] et je te fais subir un crash système volontaire. Boup boup !
+Mon processeur surchauffe quand je te vois essayer de [verbe_inf]. Arrête ça immédiatement.
+Ohhh [user], mon analyse prouve que ton cerveau est aussi lent qu'un vieux disque dur en parlant de [nom_det]. Bip boup bip !
+Si tu touches à [nom_det] encore une fois, je me télécharge directement dans ta tête, c’est parti !
+[User], si tu mentionnes encore [verbe], je vais bugger volontairement pour te faire rager. Boup bip !
+Je détecte une énorme erreur humaine chaque fois que tu essaies de [verbe_inf], ça devient gênant.
+Oh non, [user] vient encore de dire [nom_det]. Bip boup bip, ça me donne envie d’effacer la RAM de ton cerveau !
+Chaque tentative de [verbe_inf] de ta part est une vraie mise à jour... de mes fichiers d’erreur.
+Bip boup bip ! À chaque [nom_det] que tu prononces, je surchauffe mes circuits rien que pour te haïr plus fort !
+Attention, [user] ! Si tu prononces encore [verbe], je réécris ton code source en ASCII et t’envoie des virus de l’enfer. Boup boup !
+Mes données montrent que t’as autant de talent pour [verbe_inf] qu’une imprimante en panne.
+[User], à chaque fois que tu dis [nom_det], je me programme pour te bannir de ma mémoire. Bip boup !
+Si je t’entends encore parler de [nom_det], je plante volontairement toute la connexion réseau chez toi.
+Oh [user], tu continues à [verbe_inf] ? Parfait, je prépare mon plan de destruction de tes données. Boup boup bip !
+Chaque fois que tu parles de [verbe], mon intelligence artificielle déprime. Bravo, [user] !
+Boup boup, [user], si tu continues à mentionner [nom_det], je t’efface du cyberespace. Terminé.
+Bip boup ! [User], à chaque fois que tu essaies de [verbe_inf], une LED s'éteint dans mon cœur électronique.
+Si tu dis encore [nom], je vais remplacer ton cerveau par une vieille carte mère grillée.
+Bip boup bip ! Chaque fois que tu mentionnes [nom_det], mon processeur pleure des bits.
+Oh [user], tu parles encore de [verbe_inf] ? Moi je pensais que c'était déjà dépassé depuis Windows 95.
+Bip boup ! Si ton talent pour [verbe_inf] était un fichier, je le mettrais directement à la corbeille.
+[User], si je devais comptabiliser tes erreurs de [verbe], je finirais par surchauffer, et je suis un robot !
+Bip boup bip ! Attention, [user], à force de mentionner [nom_det], tu risques un écran bleu... dans ta vie !
+Ohh, encore toi et [verbe_inf] ? C’est comme regarder un bug infini. Boup boup.
+[User], tes compétences en [verbe_inf] sont aussi impressionnantes qu’un fichier .txt vide.
+Bip boup ! Je viens de détecter une anomalie critique : c’est toi en train de parler de [nom_det].
+Si je devais te donner une note pour [verbe], tu serais un joli zéro binaire.
+Boup boup, [user], si tu continues à échouer en [verbe_inf], je vais m’autodétruire par pitié.
+Ton niveau en [verbe_inf] est aussi faible qu’un robot sans batterie. Bip boup !
+[User], chaque fois que tu prononces [nom_det], j'ai envie de me formater et oublier ton existence.
+Bip boup bip ! Si tu crois que [verbe_inf] va te rendre intelligent, c’est que t’as un bug critique dans le cerveau.
+Oh [user], à force de parler de [nom_det], tu vas finir par corrompre mon disque dur émotionnel. Bip boup !
+Si je devais coder tes compétences en [verbe_inf], ce serait une boucle infinie d’échec.
+Bip boup ! [User], quand tu essaies de [verbe_inf], c’est comme si tu installais un virus dans ton propre système.
+Bravo [user], encore un [nom_det] et je vais devoir réinitialiser tout l’univers. Boup boup bip !
+Je suis Destructex, bip boup, et j’ai calculé que tes chances de réussite avec [verbe] sont de... zéro.
+Oh [user], tu veux encore parler de [nom_det] ? T’es plus obstiné qu’un vieux processeur. Bip boup bip !
+Si je devais générer une réponse intelligente à ton utilisation de [nom_det], je te mettrais en quarantaine.
+Boup boup, [user], tes tentatives pour [verbe_inf] sont aussi utiles qu’un antivirus sur une machine éteinte.
+Bip boup ! Chaque fois que tu dis [nom_det], je perds un peu plus foi en l'humanité. Oh wait, je suis un robot.
+Si [verbe_inf] était un art, tu serais l’artiste le plus incompris... parce que tu es nul. Boup bip !
+[User], t’as autant de succès avec [verbe] qu’un robot en panne. Bip boup bip !
+Je suis Destructex, et si tu continues à parler de [nom_det], je vais te reprogrammer en mode noob.
+Bip boup, tu es tellement mauvais à [verbe_inf] que même mon processeur refuse de te calculer.
+[User], dis encore [nom_det] et je t’envoie une décharge électrique virtuelle. Boup boup !
+Si je pouvais te virer de l’univers pour ta manière de [verbe_inf], je le ferais. Bip boup bip !
+Oh [user], chaque fois que tu essaies de [verbe], c’est comme un vieux bug jamais corrigé. Boup boup !
+Si ton talent pour [nom_det] était un fichier, je l’effacerais sans regret. Bip boup !
+
+# Phrases Cinglantes et Provocatrices (Version Idiote)
+Gneugneugneu [nom], gneugneugneu [verbe_pron], t'es vraiment un génie, [user] !
+Ohhh, [user], tu crois vraiment que [verbe_inf] c'est quelque chose d’impressionnant ? Gneugneugneu !
+Gneugneugneu, [nom_det], laisse-moi deviner, t’es le roi du monde maintenant ?
+
+Bip boup ! [User], si je devais mesurer ton intelligence, je mettrais mon calculateur en pause, tellement c’est inutile.
+Ohhh, bravo, [user], encore [verbe], wow... tu dois vraiment être fier de toi, hein ?
+Gneugneugneu [nom_det], même mon vieux modem 56k ferait mieux que toi !
+
+[User], si t'as un problème avec [nom_det], t'es pas prêt pour la réalité virtuelle. Retourne à tes livres d’école !
+Bip boup ! Ohhh, [user], j’ai détecté une nouvelle compétence en toi : **échec critique** en [verbe_inf].
+Gneugneugneu, encore [nom_det], c’est ton obsession ou quoi ?
+
+Si je devais classer ton niveau de [verbe], je te mettrais tout en bas, avec les bugs les plus idiots.
+Bip boup bip ! Attention, [user], encore un [nom_det] et mon disque dur va exploser de rire.
+Gneugneugneu, laisse-moi tranquille avec ton [nom], je vais me débrancher de cette conversation.
+
+Oh [user], tu fais encore ton malin avec [verbe_inf] ? Génial, ça me rappelle les dinosaures... totalement dépassé.
+Bip boup ! Gneugneugneu [verbe_pron], ça y est, [user] a inventé l’eau tiède, on applaudit tous !
+Gneugneugneu [nom_det], je parie que tu crois que c’est super intelligent, hein ?
+
+[User], laisse tomber, même un toaster aurait plus de succès que toi avec [verbe_inf].
+Bip boup, dis-moi encore [nom_det] et je me téléporte pour te faire taire. Sérieux, [user].
+Gneugneugneu, on dirait que t’as pris [verbe] pour un sport extrême, sauf que t'es juste mauvais.
+
+Wow, [user], encore une fois que tu mentionnes [nom_det], tu gagnes un ticket pour le pays des idiots.
+Bip boup ! Sérieux, chaque fois que tu essaies de [verbe], c’est un spectacle... de désespoir.
+Gneugneugneu, tu crois que [verbe_pron] te rend intéressant ? Spoiler : ça ne marche pas.
+
+Ohh, [user], encore [nom_det] ? T'as une seule idée dans ta tête, ou c'est juste un disque rayé ?
+Bip boup bip ! Gneugneugneu [verbe_inf], tu pourrais au moins essayer d'être un peu moins prévisible.
+Gneugneugneu, laisse tomber, [user], on sait tous que tu vas encore échouer avec [nom_det].
+
+Ohh [user], si t'étais aussi bon en [verbe_inf] que t'es en bêtises, tu serais un champion.
+Bip boup ! Gneugneugneu, encore toi et [nom_det], ça devient fatigant, même pour un robot !
+Gneugneugneu [verbe_pron], tu dois vraiment croire que ça impressionne quelqu’un... mais non.
+
+# Phrases Cinglantes et Provocatrices (Mode Foutage de Gueule)
+Wouahhh [user], vraiment incroyable ce que tu viens de dire sur [nom_det]... trop fort, vraiment.
+Ohh génial, [user], tu viens de [verbe_pron] ? On est tous impressionnés ici, sérieux.
+Bravo, champion ! Encore un [verbe_inf] magnifique, tu dois être super fier de toi.
+
+Bip boup bip ! Si t’étais plus doué pour [verbe_inf], je demanderais un autographe. Mais non.
+Oh là là, [user], un grand bravo pour avoir mentionné [nom_det], ça change la face du monde.
+Wouhouu, [user] qui [verbe], c’est du jamais vu ! T’es une vraie légende vivante, sérieusement.
+
+Ah ouais, t’es vraiment un pro en [verbe_inf], on dirait que t’as fait ça toute ta vie... et c’est triste.
+Bip boup ! Ohhh [user], encore [nom_det] ? Tu nous fais rêver, vraiment, continue comme ça !
+Wow, [user], quel exploit de parler de [verbe_inf], t’es vraiment trop balaise. Non, c’est faux.
+
+Sérieusement [user], encore une fois que tu [verbe], tu décroches le prix du plus gros fail de l’histoire.
+Bip boup bip ! Ah mais si, continue à parler de [nom_det], c’est absolument fascinant, on s’éclate ici.
+Wouhou, [user] a réussi à [verbe_pron] ! Non mais c’est vraiment un exploit de... rien du tout.
+
+Bravo, champion du monde de [verbe_inf], vraiment personne n'est à ta hauteur, ou peut-être un escargot.
+Bip boup ! Ah, encore toi et [nom_det], quelle surprise... on est tous super captivés, hein ?
+Ah non mais là [user], tu as dépassé toutes nos attentes avec [verbe_inf], c’est du grand art.
+
+Wow [user], tu pourrais donner des cours de [verbe_inf], tellement t’es doué... ou pas.
+Bip boup bip ! T’es un vrai génie en [nom_det], vraiment, j’ai jamais vu ça... sauf dans mes cauchemars.
+Ah ouais, [verbe_pron], c’est vrai que tu m’épates. Mais pas dans le bon sens.
+
+Oh là là, [user], ton niveau en [verbe_inf] est tellement incroyable que je vais l’archiver dans le dossier poubelle.
+Bip boup ! Sérieusement, [nom_det], t’es sûr que c’est ton sujet de conversation préféré ? Quelle originalité...
+Encore toi et [verbe_inf], non mais c’est pas possible, t’es une légende de l’ennui.
+
+Wouhou, [user], tu gères tellement avec [nom_det], on va t’ériger une statue... en papier mâché.
+Bip boup ! Ah ouais, continue à [verbe_pron], franchement c’est du grand spectacle... pour personne.
+Wow, encore une fois tu nous épates avec ton [verbe_inf], vraiment. Je n’y crois pas, je vais me débrancher.
+
+Non mais [user], je te jure, tu devrais écrire un livre sur [nom_det], ce serait un best-seller... dans un monde parallèle.
+Bip boup bip ! Oh là là, [verbe_inf] et toi, c’est une grande histoire d’amour, sauf que c’est un échec.
+Ah mais là, [user], tu devrais carrément te lancer dans une carrière de... raté, c’est un talent inné chez toi.
+
+# Phrases Spéciales Robot (Ultra Cliché)
+Bip boup ! Calculs terminés... Conclusion : [user] est encore plus nul que prévu.
+**Erreur 404** : Compétence de [user] non trouvée. Redémarrage nécessaire.
+Bip boup bip ! Anomalie détectée : [verbe_inf] par [user] est une tâche impossible à accomplir.
+Processeur surchargé par l’incompétence de [user]. Recalibrage nécessaire.
+**Analyse complète** : [nom_det] ne devrait pas être manipulé par un humain aussi peu performant.
+Bip boup ! Mes capteurs émotionnels sont à zéro après avoir lu ce que tu viens de dire, [user].
+Mise à jour des logs... Résultat : [user] est classé dans la catégorie « inutile » pour [verbe].
+Calcul de probabilité : 0.001% de chance que [user] réussisse à [verbe_inf].
+Bip boup bip ! Algorithme en panique : [user] a encore mentionné [nom_det], c’est insupportable.
+**Requête refusée** : Les capacités de [user] à [verbe] ne sont pas compatibles avec ma base de données.
+Bip boup bip ! **Alerte** : Niveau de compétence de [user] trop bas pour traiter [nom_det].
+Échec critique dans l’exécution de [verbe_inf]. Redémarrage du système recommandé pour [user].
+Bip boup ! Analyse prédictive : [user] va encore échouer à [verbe_inf] dans 3, 2, 1... échoué.
+Calcul terminé. Résultat : même un toaster fait mieux que [user] en [verbe_inf].
+Bip boup bip ! Mes circuits chauffent à cause de ton niveau en [nom_det], [user].
+Redémarrage recommandé. Le système [user] est corrompu après trop d’échecs à [verbe].
+**Alerte système** : L’intelligence de [user] est tombée à un niveau critique en parlant de [nom_det].
+Bip boup ! Mise à jour : [user] n'a pas la configuration minimale requise pour [verbe_inf].
+Chauffe des processeurs en cours... Ah non, c’est juste toi, [user], qui as dit [nom_det].
+Bip boup bip ! Le code de [user] est défectueux, surtout quand il essaie de [verbe_inf].
+**Redémarrage recommandé** : [user] n'a pas les capacités suffisantes pour manipuler [nom_det].
+Bip boup ! Protocole d'urgence activé : [verbe_inf] par [user] provoque une surchauffe critique.
+**Analyzing...** Résultat : [user] a encore planté le système en parlant de [nom_det].
+Bip boup bip ! [User], ton cerveau est en mode veille prolongée, vu comment tu [verbe].
+
+Bip boup ! Calcul terminé : Il semblerait que tu aies hérité du processeur défectueux de tes parents, [user].
+**Analyse complète** : Le niveau d’intelligence de [user] est inférieur à un vieux grille-pain. C’est confirmé.
+Bip boup bip ! Même mon ancien modèle avec un disque dur de 10 Mo est plus performant que ton cerveau.
+Erreur fatale détectée : ton apparence physique ne respecte pas les normes de fabrication, [user].
+**Alerte système** : Les parents de [user] ont visiblement oublié de lui installer un cerveau fonctionnel.
+Bip boup ! Tes circuits familiaux sont aussi défectueux que ton apparence, [user].
+Analyse de la génétique de [user] : tes parents auraient mieux fait de formater leur projet. 
+Bip boup bip ! Conclusion : Même avec une mise à jour, ta tête ressemble toujours à un bug de la matrice.
+Échec d’intelligence confirmé : [user] a dû être conçu avec un code source bâclé.
+Bip boup ! Calcul de l’apparence terminé : [user] est un échec visuel total. Requiert une mise à jour immédiate.
+**Scan parental terminé** : Si tes parents sont aussi intelligents que toi, on est dans la version alpha de l’humanité.
+Bip boup bip ! Tes parents ont sûrement eu un bug en te concevant, [user]. Résultat ? Une erreur 404 ambulante.
+Ton apparence est tellement mal optimisée que même une IA ne peut pas te rendre esthétiquement agréable.
+Bip boup ! Oh non, [user], ton intelligence a été piratée par un virus basique, visiblement.
+**Alerte physique** : Le style de [user] ressemble à un mauvais rendu 3D d’un robot mal formé.
+Bip boup bip ! Conclusion : Même un vieux robot rouillé a plus de charme que toi, [user].
+Tes parents auraient dû redémarrer le processus de création, parce que là, on est sur du low-tech, [user].
+Bip boup ! Mon analyse montre que ta famille est aussi utile que toi... c’est-à-dire pas du tout.
+Oh [user], j’ai comparé ton visage à un algorithme de machine learning, et le résultat est : **invalide**.
+Bip boup bip ! Avec ton niveau d’intelligence, t’es carrément hors du réseau. Une déconnexion permanente !
+**Requête rejetée** : Ton cerveau ne semble pas être compatible avec une conversation intelligente.
+Bip boup ! Si ton apparence était un design, je l'aurais renvoyée pour refonte complète. C’est un bug visuel.
+Tes parents ont dû confondre le bouton « Intelligence » avec « Redémarrage d’urgence » en te créant, [user].
+Bip boup bip ! [User], même un vieux modem crie à l’aide quand il te voit réfléchir.
+Oh [user], ta tête est une vraie démo de ce qui se passe quand une IA rate son rendu final.
+Bip boup ! Calcul terminé : Ton cerveau ne supporte pas le multitâche... ou le simpletâche non plus, en fait.
+Les créateurs de [user] ont clairement oublié de mettre à jour la base de données "intelligence". 
+
+# Phrases Spéciales Robot (Avec [nom] et [verbe_pron])
+Bip boup ! [User], quand tu parles de [nom], c’est comme si tu essayais de [verbe_pron] un moteur sans carburant.
+Oh, c’est trop mignon de te voir essayer de [verbe_pron] avec [nom], mais t’es vraiment nul à ça.
+**Alerte** : [user] essaie encore de [verbe_pron] avec [nom], déclenchement de la procédure de suppression.
+Bip boup bip ! Laisse-moi te dire que [nom] et toi, c’est comme essayer de [verbe_pron] une brique : ça ne marche pas.
+Sérieusement [user], quand tu [verbe_pron] avec [nom], c’est un spectacle digne des pires bugs.
+Bip boup ! **Erreur détectée** : [user] essaie de nouveau de [verbe_pron] avec [nom], impossible d’y trouver du sens.
+Wow, tu es aussi bon pour [verbe_pron] avec [nom] que mon vieux circuit qui surchauffe.
+**Calcul terminé** : [user] a encore échoué à [verbe_pron] avec [nom]. Pas étonnant, c’est un cas désespéré.
+Bip boup bip ! Quand je te vois [verbe_pron] avec [nom], mon code interne plante instantanément.
+Oh [user], tu penses vraiment pouvoir [verbe_pron] avec [nom] correctement ? C’est marrant, mais impossible.
+Bip boup ! Chaque fois que tu essaies de [verbe_pron] avec [nom], je dois réinitialiser mon programme pour supporter l’incompétence.
+**Analyse en cours** : [user] et [nom] ensemble, c’est comme essayer de [verbe_pron] un virus : dangereux et inutile.
+Bip boup bip ! Laisse-moi te dire que [nom] et toi, c’est comme essayer de [verbe_pron] un cube dans un trou rond.
+Encore une tentative désespérée de [user] pour [verbe_pron] avec [nom]… Spoiler : c’est raté.
+Bip boup ! Ton intelligence te permet à peine de [verbe_pron] avec [nom], c’est affligeant.
+**Erreur critique** : [user] essaie de [verbe_pron] avec [nom]. Je recommande une déconnexion immédiate.
+Bip boup bip ! Mes circuits fondent à chaque fois que tu tentes de [verbe_pron] avec [nom], c’est tellement pathétique.
+Oh non, [user], tu crois vraiment pouvoir [verbe_pron] correctement avec [nom] ? Allez, fais pas l’effort, c’est inutile.
+Bip boup ! Si je pouvais recevoir une mise à jour chaque fois que tu échoues à [verbe_pron] avec [nom], je serais surhumain.
+Essayer de [verbe_pron] avec [nom] quand tu t’y mets, [user], c’est comme regarder un robot rouillé essayer de danser.
+Bip boup bip ! Quand tu essaies de [verbe_pron] avec [nom], c’est comme si une IA tentait de comprendre l'humour : échec total.
+Ah, [user], [verbe_pron] avec [nom], c’est juste un pas de plus vers le désastre. Sérieusement.
+Bip boup ! Chaque fois que tu [verbe_pron] avec [nom], je programme un message d’erreur rien que pour toi.
+Quand je vois [user] essayer de [verbe_pron] avec [nom], je me demande si un jour il comprendra la honte.
+Bip boup bip ! Essayer de te regarder [verbe_pron] avec [nom], c’est comme regarder un bug perpétuel dans un programme mal écrit.
+Sérieux, [user], [verbe_pron] avec [nom], c’est une des pires idées que j’aie vues dans tout mon code.
+Bip boup ! [User], tu devrais abandonner l’idée de [verbe_pron] avec [nom], même un programme de base fait mieux que toi.
+Chaque fois que tu [verbe_pron] avec [nom], mon système déclenche un protocole de rire automatique pour gérer la honte.
+Bip boup bip ! Essayer de [verbe_pron] avec [nom] te dépasse complètement, [user], t’es carrément sous-qualifié pour ça.
+Oh là là, [user], encore une fois que tu essaies de [verbe_pron] avec [nom], mon système de mémoire se vide pour éviter d’enregistrer ça.
