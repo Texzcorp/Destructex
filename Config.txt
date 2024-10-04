@@ -3,4 +3,5 @@ redirect_uri=https://localhost:8080
 scope=chat:read chat:edit
 
 
-oauth_token=i94fz5aaf9cqx82ar2pj1su9l4228x
+
+oauth_token=04hzhi7ktruz64r8x81h0safp6j3e7
