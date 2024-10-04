@@ -1,0 +1,3 @@
+{[nomgrp]}"Voici le [nomgrp] que tu as dit"
+{[pron:1p][verbgrp]}"Tu [verbgrp] comme un chef"
+{[subject][verb]}"Ahahahha il [verb], t'as trop raison [user]"

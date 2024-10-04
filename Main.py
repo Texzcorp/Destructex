@@ -5,7 +5,8 @@ import string
 import time
 import requests
 from twitchio.ext import commands
-from AnswerMaker import parse_message, generate_answer
+from ParseNewMethod import traiter_phrase
+from NewGenerateAnswer import generer_reponses
 
 # Fonction pour charger les informations de configuration depuis un fichier
 def load_config():
@@ -78,29 +79,38 @@ class Bot(commands.Bot):
     async def event_ready(self):
         print(f'Logged in as | {self.nick}')
         print(f'User id is | {self.user_id}')
+        self.bot_id = self.user_id  # Stocke l'ID du bot pour éviter les réponses à lui-même
+
 
     async def event_message(self, message):
         try:
-            # Ne pas répondre aux messages du bot lui-même
-            if message.author and message.author.name.lower() == self.nick.lower():
+            # Ignore le message si l'auteur est le bot lui-même (nom "texzzzzzz")
+            if message.author and message.author.name.lower() == "texzzzzzz":
                 return
 
             detected_author = message.author.name if message.author else "Unknown"
             print(f"> Message détecté de {detected_author}: {message.content}")
+            if detected_author == "Unknown":
+                return
 
-            # 100% de chance de répondre pour les tests (remplacez par 0.6 pour une réponse aléatoire)
-            if random.random() < 0.6:
+            # Chance de réponse (ajustez la probabilité pour les tests)
+            if random.random() < 0.5:
                 print("J'attaque!")
-                name, verb, mood, tense, person, original_verb_form, other_elements = parse_message(message.content)
-                print("> Message décortiqué !")
-                print(f"Name: {name}, Verb: {verb}, Mood: {mood}, Tense: {tense}, Person: {person}, Original Verb Form: {original_verb_form}, Other Elements: {other_elements}")  # Log
+                parsed_message = traiter_phrase(message.content)
+                print(f"> Message décortiqué : {parsed_message}")
 
-                # Si un nom, verbe ou autre élément significatif est détecté, générer une réponse
-                if name or verb or other_elements:
-                    response = generate_answer(name, verb, mood, tense, person, original_verb_form, message.author.name)
-                    if response:
-                        print(f"> Réponse générée : {response}")  # Log
-                        await message.channel.send(response)
+                # Générer les réponses
+                if parsed_message["groupes_nominaux"] or parsed_message["verbes"]:
+                    groupes_nominaux = parsed_message["groupes_nominaux"]
+                    verbes = parsed_message["verbes"]
+                    responses = generer_reponses(groupes_nominaux, verbes, detected_author)
+                    
+                    # Choisir une réponse aléatoire et ajouter le préfixe
+                    if responses:
+                        chosen_response = random.choice(responses)
+                        prefixed_response = f"MrDestructoid {chosen_response}"
+                        print(f"> Réponse finale : {prefixed_response}")  # Log
+                        await message.channel.send(prefixed_response)
                     else:
                         print("> Aucune réponse générée, éléments manquants ou réponse invalide.")
                 else:
@@ -110,6 +120,9 @@ class Bot(commands.Bot):
             print(f"Une erreur est survenue dans event_message : {e}")
             import traceback
             traceback.print_exc()
+
+
+
 
     async def send_message(self, channel_name, response):
         # Envoie la réponse dans le chat
@@ -151,3 +164,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
