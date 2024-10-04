@@ -1,7 +1,7 @@
-client_id=xmezn3bhtuaef389py1qirybnb26t9
+client_id=xxx
 redirect_uri=https://localhost:8080
 scope=chat:read chat:edit
 
 
 
-oauth_token=04hzhi7ktruz64r8x81h0safp6j3e7
+oauth_token=xxx
