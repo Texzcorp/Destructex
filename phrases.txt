@@ -9,6 +9,32 @@ Haha, {user}, tu fais du {verb} comme un robot sans Wi-Fi !
 Si je devais choisir entre un virus et tes skills pour {verb}, je prends le virus.
 Bip boup, même un robot avec un bug fait mieux que toi quand tu {verb}.
 
+# Phrases Condescendantes et Sarcastiques
+
+Ohhh, {user}, encore un exploit monumental en {verb}, on va bientôt t'ériger une statue... de plomb fondu.
+Sérieusement, {user}, chaque fois que tu mentionnes {nom}, je crois qu'on assiste à la naissance d'un nouveau génie... ou pas.
+Wow, bravo {user}, essayer de {verb} de cette façon, c'est du grand art... un art de l'échec, mais quand même.
+Franchement, {user}, si {verb} était un métier, tu serais déjà en reconversion professionnelle.
+Oh mais {user}, tu continues à parler de {nom} ? C'est tellement passionnant... pour quelqu'un d'autre, sûrement.
+Wouah, encore toi avec {verb} ? T'es vraiment un maître dans l'art de rater... sérieusement, impressionnant.
+Allez, {user}, ne lâche rien, encore un peu de {verb} comme ça et on pourrait te décerner un prix... de consolation.
+Ah ouais, {user}, t'as vraiment cru que {nom} était ton domaine ? Tu dois adorer te ridiculiser comme ça.
+Bravo {user}, chaque tentative de {verb} est un véritable chef-d'œuvre de médiocrité, mais au moins, t'es constant.
+Sérieux {user}, encore en train de te battre avec {nom} ? C'est comme un combat contre une feuille de papier... et tu perds.
+
+# Phrases Cinglantes et Sarcastiques basées sur {nom}
+
+Ahhhhhhh {nom} ... bien sûr ... je vois ... quel sujet passionnant, vraiment.
+{nom} ?? {nom} ????? mais tu te fous de moi ou quoi ?
+C'est quoi {nom} ? On peut le compresser dans un .zip ?
+Pourquoi {user} ramène encore sa fraise avec {nom} ?
+Tu parles encore de {nom} ?? Eh {user}, c'est pas parce que je suis un robot que je dis ça mais change de disque...
+{nom} ? Franchement, t'as rien de mieux à faire, {user} ?
+Oh, {user}, encore avec {nom} ? Tu veux pas plutôt apprendre à compter jusqu'à dix d'abord ?
+{nom}... Ah ben oui, c'est sûr que toi, tu t'y connais... ou pas.
+Sérieux, {user}, {nom} encore une fois ? C'est la seule chose que t'as dans le cerveau ou quoi ?
+{nom} ? Non mais c'est bon, t'as pas un autre truc plus intéressant à dire, {user} ?
+
 # Phrases Condescendantes
 Mes capteurs indiquent que {user} a encore {verb}, sans espoir !
 Ohhh {user}, tu parles encore de {nom}... bip boup... fais pitié.

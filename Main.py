@@ -70,6 +70,36 @@ def is_token_valid(token):
     response = requests.get(validation_url, headers=headers)
     return response.status_code == 200
 
+# Fonction pour charger les modes depuis le fichier modes.txt
+def load_modes_from_file():
+    modes = []
+    try:
+        with open('modes.txt', 'r', encoding='utf-8') as f:
+            current_mode = None
+            mode_data = {}
+            for line in f:
+                line = line.strip()
+                if line.startswith('[') and line.endswith(']'):
+                    if current_mode:
+                        modes.append(mode_data)
+                    current_mode = line[1:-1]
+                    mode_data = {"mode": current_mode, "conjugaisons": {}, "filepath": "", "prefix": ""}
+                elif '=' in line and current_mode:
+                    key, value = line.split('=')
+                    key = key.strip()
+                    value = value.strip()
+                    if key == "filepath":
+                        mode_data["filepath"] = value
+                    elif key == "prefix":
+                        mode_data["prefix"] = value
+                    else:
+                        mode_data["conjugaisons"][key] = value
+            if current_mode:
+                modes.append(mode_data)
+    except FileNotFoundError:
+        print("Erreur : Le fichier modes.txt n'a pas été trouvé.")
+    return modes
+
 # Classe Bot utilisant TwitchIO
 class Bot(commands.Bot):
     def __init__(self, channel, oauth_token):
@@ -80,7 +110,6 @@ class Bot(commands.Bot):
         print(f'Logged in as | {self.nick}')
         print(f'User id is | {self.user_id}')
         self.bot_id = self.user_id  # Stocke l'ID du bot pour éviter les réponses à lui-même
-
 
     async def event_message(self, message):
         try:
@@ -94,35 +123,43 @@ class Bot(commands.Bot):
                 return
 
             # Chance de réponse (ajustez la probabilité pour les tests)
-            if random.random() < 0.5:
+            if random.random() < 0.1:
                 print("J'attaque!")
                 parsed_message = traiter_phrase(message.content)
                 print(f"> Message décortiqué : {parsed_message}")
 
-                # Générer les réponses
-                if parsed_message["groupes_nominaux"] or parsed_message["verbes"]:
-                    groupes_nominaux = parsed_message["groupes_nominaux"]
-                    verbes = parsed_message["verbes"]
-                    responses = generer_reponses(groupes_nominaux, verbes, detected_author)
-                    
-                    # Choisir une réponse aléatoire et ajouter le préfixe
-                    if responses:
-                        chosen_response = random.choice(responses)
-                        prefixed_response = f"MrDestructoid {chosen_response}"
-                        print(f"> Réponse finale : {prefixed_response}")  # Log
-                        await message.channel.send(prefixed_response)
+                # Charger les modes et en sélectionner un au hasard
+                modes = load_modes_from_file()
+                if modes:
+                    chosen_mode_data = random.choice(modes)
+                    chosen_mode = chosen_mode_data["mode"]
+                    chosen_prefix = chosen_mode_data["prefix"]
+                    print(f"Mode choisi : {chosen_mode}")
+                    print(f"Préfixe choisi : {chosen_prefix}")
+
+                    # Générer les réponses en utilisant le mode choisi
+                    if parsed_message["groupes_nominaux"] or parsed_message["verbes"]:
+                        groupes_nominaux = parsed_message["groupes_nominaux"]
+                        verbes = parsed_message["verbes"]
+                        responses = generer_reponses(groupes_nominaux, verbes, detected_author, chosen_mode)
+                        
+                        # Choisir une réponse aléatoire et ajouter le préfixe du mode
+                        if responses:
+                            chosen_response = random.choice(responses)
+                            prefixed_response = f"{chosen_prefix} {chosen_response}"
+                            print(f"> Réponse finale : {prefixed_response}")  # Log
+                            await message.channel.send(prefixed_response)
+                        else:
+                            print("> Aucune réponse générée, éléments manquants ou réponse invalide.")
                     else:
-                        print("> Aucune réponse générée, éléments manquants ou réponse invalide.")
+                        print("> Aucun élément significatif détecté, pas de réponse.")
                 else:
-                    print("> Aucun élément significatif détecté, pas de réponse.")
+                    print("> Aucun mode disponible pour générer des réponses.")
 
         except Exception as e:
             print(f"Une erreur est survenue dans event_message : {e}")
             import traceback
             traceback.print_exc()
-
-
-
 
     async def send_message(self, channel_name, response):
         # Envoie la réponse dans le chat
@@ -164,4 +201,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    

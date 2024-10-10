@@ -1,0 +1,142 @@
+# Phrases Chevaleresques et Amusantes
+
+Ô vaillant {user}, ton art de {verb} est aussi raffiné qu'une lance rouillée... mais nul doute qu'un jour tu feroy mieux !
+Par tous les saints, {user}, encore à tenter de comprendre {nom} ? M'est avis qu'un écuyer manchot feroy mieux !
+Ah, noble {user}, tu brandis {nom} comme un chevalier un cure-dent, et pourtant tu crois être prêt pour la guerre !
+Ô {user}, si {verb} était un duel, tu seroy sans épée et sans armure... Mais continue donc, le ridicule n'a jamais tué un preux chevalier.
+Sacrebleu, {user}, encore à essayer de {verb} ? Ton honneur est aussi éclatant qu'une bourse vide après le marché !
+{user}, la prochaine fois que tu {verb}, je te conjure d’invoquer au moins un peu de dignité, avant que ton heaume ne tombe encore.
+Si {nom} était un destrier, {user}, tu l’aurais déjà laissé enlisé dans la boue. Mais courage ! 
+Baste, {user}, encore une fois à {verb} ainsi... Je t’enseigneroy volontiers, mais certains talents ne peuvent être appris par l’échec seul.
+
+
+# Phrases Chevaleresques et Cinglantes
+
+{user}, chaque fois que tu {verb}, c'est un affront à toute la chevalerie. Même un cheval sans tête feroy mieux que toi.  
+Si {nom} était un trésor, {user}, tu l'aurais déjà perdu dans les latrines.  
+Par tous les diables, {user}, tes tentatives de {verb} sont aussi vaines que de souffler dans un cor sans embouchure.  
+Ô, pauvre {user}, si {nom} était une épée, tu te serais déjà empalé sur la garde en tentant de la dégainer.  
+Par ma foi, {user}, tu fais honte à ton ordre à chaque fois que tu oses {verb}. Quitte donc la lice avant de trébucher encore.  
+Si {verb} était un art, {user}, tu serais le peintre manchot qui renverse son encrier et appelle cela un chef-d'œuvre.  
+{user}, ta maîtrise de {nom} est aussi ridicule qu'un chevalier combattant avec une saucisse en guise d'épée.  
+Chaque fois que tu {verb}, {user}, c'est comme voir un fou tenter d'attraper du vent avec ses mains, désespéré et ridicule.  
+Par tous les saints, {user}, cesse de {verb} avant que ta bêtise ne fasse s'effondrer les murailles du royaume.  
+Si {nom} était une quête, {user}, tu l'aurais abandonnée à la première taverne.  
+{user}, chaque fois que tu tentes de {verb}, c'est comme si tu demandais à un âne de réciter un poème : inutile et pathétique.  
+Que le ciel t'en préserve, {user}, car à force de {verb}, tu finiras par être plus risible qu'un bouffon trop ivre pour se tenir debout.
+
+# Phrases Chevaleresques et Moqueuses
+
+Ah, {user}, quand tu {verb}, c'est comme voir un âne essayer de danser. On ne sait pas si on doit en rire ou pleurer.  
+{user}, tu es aussi doué en {nom} qu'un crapaud l'est pour chevaucher. Peut-être devrais-tu retourner à tes leçons de base, si tant est que tu en aies eues.  
+Hahaha ! {user}, t'essaies encore de {verb} ? Par ma barbe, c'est à se demander si tu n'as pas appris ça en observant des poules courir sans tête.  
+Si {nom} était une couronne, {user}, tu serais celui qui la porte à l'envers, sans même te rendre compte du ridicule.  
+Ah, {user}, c'est toujours un plaisir de te voir {verb}, comme on prend plaisir à regarder un feu de camp… sauf que toi, tu brûles ta dignité à chaque tentative.  
+Par le saint Graal, {user}, tes tentatives de {verb} me rappellent un page essayant de monter à cheval pour la première fois... et tombant à chaque essai !  
+{user}, à chaque fois que tu mentionnes {nom}, je me demande si tu ne ferais pas mieux de te cacher derrière ton bouclier de honte.  
+Ah, {user}, si seulement tu pouvais {verb} aussi bien que tu échoues à le faire, tu serais peut-être célèbre pour quelque chose... autre que ta maladresse.  
+{user}, tu manies {nom} comme un gueux manie la langue des nobles, avec toute la grâce d'un ivrogne au petit matin.  
+Oh mais continue, {user}, essaye donc encore de {verb}, je suis certain que cette fois-ci, tu ne tomberas pas... tout de suite !  
+Ah, {user}, {verb} est vraiment ton talent caché... tellement bien caché que même toi, tu ne l'as jamais trouvé.  
+Quand tu parles de {nom}, {user}, je ne sais jamais si je dois t’écouter ou juste attendre que la farce soit terminée.
+
+# Phrases Courtes, Cinglantes et Débiles
+
+Ah {user}, encore {verb} ? C’est un miracle que tu sois encore debout.  
+{nom} ? Sérieux ? Même un enfant saurait mieux que toi.  
+Oh {user}, t’as déjà échoué avant même de commencer à {verb}.  
+{user}, chaque fois que tu {verb}, on dirait que tu t'inventes des nouvelles façons de te ridiculiser.  
+{nom} et toi, c’est comme l’huile et l’eau. Ça prend jamais.  
+Franchement {user}, {verb} ? T’as de l’audace... ou de la bêtise, j’hésite encore.  
+{user}, arrête de {verb}, c’est gênant pour tout le monde.  
+{nom} ? À chaque fois que t’en parles, j’ai envie de me déconnecter.  
+{verb} et toi ? Une belle histoire d’échec continu.  
+Si tu parlais moins de {nom}, t’aurais au moins l’air un peu plus malin.  
+Ahah {user}, même une pierre feroy mieux que toi en {verb}.  
+{user}, tu prends {nom} pour quoi ? Un jouet ?  
+Encore {verb} ? Sérieusement, c’est ton passe-temps favori de te planter comme ça ?  
+{nom} ? Ah non, toi et ça, c’est comme mélanger du vin et de la boue.
+
+# Phrases Débiles, Immatures et Médiévales
+
+Hahaha {user}, t’as raté {verb} ! Encore ! T'es vraiment mauvais, ça m'rend joyeux !  
+Oh {user}, {nom} c’est quoi ça ? Une farce ? Même un bouffon d'cour feroy mieux !  
+T'as {verb}, mais t'aurais mieux fait d'aller traire des chèvres, t'sais !  
+{nom} ? Sérieux ? T'aurais plus d'chances d'apprivoiser un dragon !  
+Pfff, {user}, j'sais même plus pourquoi tu t'fatigues avec {verb}. Ça s'voit que t'es nul !  
+Hé hé, encore {nom} ? J'parie qu'même ta grand-mère fait ça mieux !  
+Ah non, {user}, tu tentes encore de {verb} ? C'est d'l'humour ? C'est trop mauvais !  
+{nom} et toi, c'est comme moi et la politesse : ça n'colle pas du tout !  
+Hahaha {user}, continue comme ça, tu vas finir par inventer l'échec ultime !  
+Oh oh {user}, {verb} encore ? Tu veux m'faire croire que tu sais faire des trucs ? Haha !  
+{nom} ? Pwahaha, sérieux {user}, ça te va comme une épée en beurre dans la mêlée !  
+Allez, {user}, arrête tout de suite {verb}, t’es juste un ramassis d'maladresses !  
+Hihihi, t'essaies encore de {verb}, mais tu réussis juste à m'faire marrer, bravo !  
+{nom} et toi ? Une belle paire d'idiots !  
+Pfffff, {user}, laisse tomber {verb}, j'me fatigue même plus à t'regarder échouer.
+
+# Phrases Débiles et Médiévales sur nom
+
+Oh, {user}, {nom} encore ? Par ma foi, tu fais vraiment pitié !  
+Hé bien, {user}, t’as choisi {nom} comme nouveau projet ? T’as fort bien pris le chemin de l’échec !  
+Tu sembles fort accro à {nom}, n'est-ce pas ? Comme un écureuil s'acharnant sur une noisette moisie !  
+Allez donc, {user}, cesse de parler de {nom}, cela devient fort gênant.  
+{nom} ? Parbleu, on dirait que tu rimes avec l’absurde, {user} !  
+Hahaha, {user}, t'as {nom} dans l'esprit tel un écuyer rêve d'honneur !  
+Veux-tu vraiment encore parler de {nom} ? C'est comme amener un pigeon à un banquet, quel non-sens !  
+Oh, {user}, si {nom} était un gâteau, tu serais le premier à y tomber tout entier !  
+Quand tu prononces {nom}, je m’interroge si tu as jamais compris ce qu’est le bon sens !  
+Ah, {user}, t'as choisi {nom} comme compagnon ? Je t'en prie, trouve-toi un ami de meilleure tenue !  
+{nom} et toi, c'est tel un dragon sans feu, c'est fort ennuyeux à pleurer !  
+Mais poursuis donc ton discours sur {nom}, cela m'amuse, c'est comme contempler un spectacle de marionnettes !  
+{user}, si {nom} était une quête, tu serais le héros fuyant au premier obstacle !  
+Cesse de parler de {nom}, {user}, cela nous cause tous douleur aux oreilles !  
+{nom} encore ? Je te le dis, tu veux vraiment passer pour l’idiot du village, quel exploit !
+
+# Phrases Courtes et Insultantes sur {nom}
+
+{user}, t’es aussi utile que {nom} à un banquet de nobles !  
+Oh, {user}, encore {nom} ? T’es un vrai paltoquet, c’est risible !  
+Ah {user}, avec {nom}, tu fais vraiment pitié, comme un gueux à la porte d’un château !  
+{nom} ? Pfff, t’es qu’un vaurien, j’en peux plus !  
+Hé {user}, t’as {nom} dans la tête, ou t’es juste un fou du roi ?  
+Par tous les saints, {user}, t’es aussi brillant qu’un âne en armure avec {nom} !  
+Tu parles de {nom} ? Quel drôle de débauché tu fais, {user} !  
+Ah, {user}, t’es un vrai luron, à causer de {nom} comme d’un trésor !  
+{user}, si {nom} était une insulte, tu serais le roi du pays des balourds !  
+Avec {nom}, tu t’fais passer pour un benêt, {user}, c'est un fait !  
+Encore {nom}, {user} ? Tu sembles bien être un charlatan !  
+{user}, tu es le sage des sots à discuter de {nom} !
+
+
+# Phrases Black Pills Médiévales Horribles sur {nom}
+
+Ah, {user}, de nouveau à deviser de {nom} ? Même les vers de terre ont plus de prix dans l'ordre des choses.  
+Sache, {user}, que si {nom} fût une promesse, ce ne serait que celle d'un fou à la recherche de sa raison.  
+Hahaha, {user}, {nom} ne te fera jamais héros, mais t'assignera le triste sort d'un sire à la fin de son chemin.  
+Avec {nom}, tu es aussi égaré qu'un enfant perdu dans une forêt enchantée, sans espoir de retour.  
+Oh, {user}, évoquer {nom} c'est pleurer sur un verre brisé : rien ne change à la dure réalité.  
+{nom} ? C'est un mirage, {user}, un espoir vain dans un monde de désolation.  
+Hé, {user}, ton obsession pour {nom} te rend aussi risible qu'un bouffon sans masque.  
+Avec {nom}, tu deviens le héraut de ta propre déchéance, un véritable drame en cours d’écriture.  
+{user}, continue à rêver avec {nom}, mais sache que la réalité n’est point un conte de fées.  
+{nom} t’emporte dans l’abîme, {user}, tel un vaisseau sans capitaine dans une mer tempétueuse.  
+Ah, {user}, chaque mot que tu prononces sur {nom} te fait glisser un peu plus vers le néant.  
+Tu parles de {nom} ? Même les spectres te mépriseraient pour cela, {user}.
+
+# Phrases Philosophico-Cinglantes sur la Vie
+
+Ô {user}, la vie te sourit comme un loup à un agneau, je crains que tu ne comprennes jamais l'art de la survie.  
+Hélas, {user}, ton existence est telle une ombre vacillante, égarée dans le brouillard des illusions.  
+Dis-moi, {user}, crois-tu vraiment que le monde se pliera à tes caprices ? Même les cailloux ne daigneraient s'incliner devant ton inertie.  
+Ah, {user}, vivre sans sagesse, c'est comme brandir une épée rouillée, il est peu probable que tu tranchasses quoi que ce soit de véritable.  
+Tu es tel un oiseau sans ailes, {user}, cherchant à toucher les cieux tout en rampant dans la boue de ton ignorance.  
+Sais-tu, {user}, que chaque moment de ta vie ressemble à un banquet où tu es le seul à ne pas avoir été convié ?  
+Le vent de la destinée souffle, {user}, mais tu sembles tantôt être une pierre, tantôt un buisson, sans jamais comprendre la direction.  
+Ah, {user}, tu poursuis tes rêves tels des mirages, ignorant que l'eau se dérobe toujours sous les pas des insensés.  
+La sagesse, {user}, n'est point acquise en errant comme un fou dans les champs de l'ignorance, mais je suppose que tu préfères l'aveuglement.  
+Ô {user}, tes tentatives d'atteindre la grandeur sont aussi ridicules qu'un coq chantant à minuit, persuadé qu'il est maître du temps.  
+En vérité, {user}, vivre sans introspection, c'est comme naviguer en mer sans boussole, et je crains que tu sois ce marin égaré.  
+Ah, {user}, l'ironie de ton existence, c'est que même le flot de la vie t'a oublié dans sa course effrénée.
+
+
