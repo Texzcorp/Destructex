@@ -1,142 +1,162 @@
 # Phrases Chevaleresques et Amusantes
 
-Ô vaillant {user}, ton art de {verb} est aussi raffiné qu'une lance rouillée... mais nul doute qu'un jour tu feroy mieux !
-Par tous les saints, {user}, encore à tenter de comprendre {nom} ? M'est avis qu'un écuyer manchot feroy mieux !
-Ah, noble {user}, tu brandis {nom} comme un chevalier un cure-dent, et pourtant tu crois être prêt pour la guerre !
-Ô {user}, si {verb} était un duel, tu seroy sans épée et sans armure... Mais continue donc, le ridicule n'a jamais tué un preux chevalier.
-Sacrebleu, {user}, encore à essayer de {verb} ? Ton honneur est aussi éclatant qu'une bourse vide après le marché !
-{user}, la prochaine fois que tu {verb}, je te conjure d’invoquer au moins un peu de dignité, avant que ton heaume ne tombe encore.
-Si {nom} était un destrier, {user}, tu l’aurais déjà laissé enlisé dans la boue. Mais courage ! 
-Baste, {user}, encore une fois à {verb} ainsi... Je t’enseigneroy volontiers, mais certains talents ne peuvent être appris par l’échec seul.
-
+Ô vaillant {user}, ton art de {verb} est aussi raffiné qu'une lance rouyée... mais nul doute qu'un jour tu feroy myeux !
+Par tous les saints, {user}, encore à tenter de comprendre {nom} ? M'est avys qu'un escuyer manchot feroy myeux !
+Ah, noble {user}, tu brandys {nom} comme un chevalyer ung cure-dent, et pourtant tu croys estre prêt pour la guerre !
+Ô {user}, sy {verb} estoit un duel, tu seroy sans espée et sans armure... Mais continue donc, le ryducule n'a jamais tué ung preux chevalyer.
+Sacrebleu, {user}, encore à essayer de {verb} ? Ton honneur est aussi esclatant qu'une bourse vyde après le marché !
+{user}, la prochaine foys que tu {verb}, je te conjure d’invoquer au moins un peu de dignyté, avant que ton heaume ne tombe encore.
+Sy {nom} estoit un destrier, {user}, tu l’aurays déjà laissé enlisé dans la boue. Mais courage !
+Baste, {user}, encore une foys à {verb} ainsi... Je t’enseigneroy voluntiers, mais certains talens ne peuvent estre appris par l’échec seul.
 
 # Phrases Chevaleresques et Cinglantes
 
-{user}, chaque fois que tu {verb}, c'est un affront à toute la chevalerie. Même un cheval sans tête feroy mieux que toi.  
-Si {nom} était un trésor, {user}, tu l'aurais déjà perdu dans les latrines.  
-Par tous les diables, {user}, tes tentatives de {verb} sont aussi vaines que de souffler dans un cor sans embouchure.  
-Ô, pauvre {user}, si {nom} était une épée, tu te serais déjà empalé sur la garde en tentant de la dégainer.  
-Par ma foi, {user}, tu fais honte à ton ordre à chaque fois que tu oses {verb}. Quitte donc la lice avant de trébucher encore.  
-Si {verb} était un art, {user}, tu serais le peintre manchot qui renverse son encrier et appelle cela un chef-d'œuvre.  
-{user}, ta maîtrise de {nom} est aussi ridicule qu'un chevalier combattant avec une saucisse en guise d'épée.  
-Chaque fois que tu {verb}, {user}, c'est comme voir un fou tenter d'attraper du vent avec ses mains, désespéré et ridicule.  
-Par tous les saints, {user}, cesse de {verb} avant que ta bêtise ne fasse s'effondrer les murailles du royaume.  
-Si {nom} était une quête, {user}, tu l'aurais abandonnée à la première taverne.  
-{user}, chaque fois que tu tentes de {verb}, c'est comme si tu demandais à un âne de réciter un poème : inutile et pathétique.  
-Que le ciel t'en préserve, {user}, car à force de {verb}, tu finiras par être plus risible qu'un bouffon trop ivre pour se tenir debout.
+{user}, chaque foys que tu {verb}, c'est un affront à toute la chevalerye. Mesme un cheval sans teste feroy myeux que toy.
+Sy {nom} estoit un trésor, {user}, tu l’aurays déjà perdu dans les latrynes.
+Par tous les dyables, {user}, tes tentatives de {verb} sont aussi vaines que de souffler dans un cor sans embouchure.
+Ô, pauvre {user}, sy {nom} estoit une espée, tu te seroys déjà empalé sur la garde en tentant de la dégayner.
+Par ma foy, {user}, tu fais honte à ton ordre à chaque foys que tu oses {verb}. Quytte donc la lyce avant de trébucher encore.
+Sy {verb} estoit un art, {user}, tu seroys le peyntre manchot qui renverse son encryer et appelle cela ung chef-d'œuvre.
+{user}, ta maîstrye de {nom} est aussi ryducule qu'un chevalyer combatant avec une saucysse en guise d'espée.
+Chaque foys que tu {verb}, {user}, c'est comme veoir un fou tenter d'attraper du vent avec ses mains, désespéré et ryducule.
+Par tous les saints, {user}, cesse de {verb} avant que ta bêtise ne fasse s'effondrer les murailles du royaulme.
+Sy {nom} estoit une quête, {user}, tu l’aurays abandonnée à la première taverne.
+{user}, chaque foys que tu tentes de {verb}, c'est comme sy tu demandays à un âne de réciter un poème : inutile et pathétyque.
+Que le ciel t'en préserve, {user}, car à force de {verb}, tu finyras par estre plus rysyble que ung bouffon trop yvre pour se tenir debout.
 
 # Phrases Chevaleresques et Moqueuses
 
-Ah, {user}, quand tu {verb}, c'est comme voir un âne essayer de danser. On ne sait pas si on doit en rire ou pleurer.  
-{user}, tu es aussi doué en {nom} qu'un crapaud l'est pour chevaucher. Peut-être devrais-tu retourner à tes leçons de base, si tant est que tu en aies eues.  
-Hahaha ! {user}, t'essaies encore de {verb} ? Par ma barbe, c'est à se demander si tu n'as pas appris ça en observant des poules courir sans tête.  
-Si {nom} était une couronne, {user}, tu serais celui qui la porte à l'envers, sans même te rendre compte du ridicule.  
-Ah, {user}, c'est toujours un plaisir de te voir {verb}, comme on prend plaisir à regarder un feu de camp… sauf que toi, tu brûles ta dignité à chaque tentative.  
-Par le saint Graal, {user}, tes tentatives de {verb} me rappellent un page essayant de monter à cheval pour la première fois... et tombant à chaque essai !  
-{user}, à chaque fois que tu mentionnes {nom}, je me demande si tu ne ferais pas mieux de te cacher derrière ton bouclier de honte.  
-Ah, {user}, si seulement tu pouvais {verb} aussi bien que tu échoues à le faire, tu serais peut-être célèbre pour quelque chose... autre que ta maladresse.  
-{user}, tu manies {nom} comme un gueux manie la langue des nobles, avec toute la grâce d'un ivrogne au petit matin.  
-Oh mais continue, {user}, essaye donc encore de {verb}, je suis certain que cette fois-ci, tu ne tomberas pas... tout de suite !  
-Ah, {user}, {verb} est vraiment ton talent caché... tellement bien caché que même toi, tu ne l'as jamais trouvé.  
-Quand tu parles de {nom}, {user}, je ne sais jamais si je dois t’écouter ou juste attendre que la farce soit terminée.
+Ah, {user}, quand tu {verb}, c'est comme veoir un âne essayer de danser. On ne sçay sy l'on doit en ryr ou pleurer.
+{user}, tu es aussi doué en {nom} qu'un crapaud l'est pour chevaucher. Peut-estre devroys-tu retourner à tes leçons de base, sy tant est que tu en ayes eues.
+Hahaha ! {user}, t'essaies encore de {verb} ? Par ma barbe, c'est à se demander sy tu n'as pas appris cela en observant des poules courir sans teste.
+Sy {nom} estoit une couronne, {user}, tu seroys celuy qui la porte à l’envers, sans mesme te rendre compte du ryducule.
+Ah, {user}, c'est toujours ung plaisyr de te veoir {verb}, comme on prend plaisyr à regarder ung feu de camp… sauf que toy, tu brûles ta dignyté à chaque tentative.
+Par le saint Graal, {user}, tes tentatives de {verb} me rappellent un page essayant de monter à cheval pour la première foys... et tombant à chaque essay.
+{user}, à chaque foys que tu mentionnes {nom}, je me demande sy tu ne feroys pas myeux de te cacher derrière ton bouclier de honte.
+Ah, {user}, sy seulement tu pouvois {verb} aussi bien que tu échoues à le faire, tu seroys peut-estre célèbre pour quelque chose... autre que ta maladresse.
+{user}, tu manies {nom} comme un gueux manie la langue des nobles, avec toute la grace d'un yvrogne au petit matin.
+Oh mais continue, {user}, essaye donc encore de {verb}, je suis certain que cette foys-cy, tu ne tomberas pas... tout de suite !
+Ah, {user}, {verb} est vraiment ton talent caché... tellement bien caché que mesme toy, tu ne l'as jamais trouvé.
+Quand tu parles de {nom}, {user}, je ne sçay jamais sy je dois t’écouter ou juste attendre que la farce soyt terminée.
 
 # Phrases Courtes, Cinglantes et Débiles
 
-Ah {user}, encore {verb} ? C’est un miracle que tu sois encore debout.  
-{nom} ? Sérieux ? Même un enfant saurait mieux que toi.  
-Oh {user}, t’as déjà échoué avant même de commencer à {verb}.  
-{user}, chaque fois que tu {verb}, on dirait que tu t'inventes des nouvelles façons de te ridiculiser.  
-{nom} et toi, c’est comme l’huile et l’eau. Ça prend jamais.  
-Franchement {user}, {verb} ? T’as de l’audace... ou de la bêtise, j’hésite encore.  
-{user}, arrête de {verb}, c’est gênant pour tout le monde.  
-{nom} ? À chaque fois que t’en parles, j’ai envie de me déconnecter.  
-{verb} et toi ? Une belle histoire d’échec continu.  
-Si tu parlais moins de {nom}, t’aurais au moins l’air un peu plus malin.  
-Ahah {user}, même une pierre feroy mieux que toi en {verb}.  
-{user}, tu prends {nom} pour quoi ? Un jouet ?  
-Encore {verb} ? Sérieusement, c’est ton passe-temps favori de te planter comme ça ?  
-{nom} ? Ah non, toi et ça, c’est comme mélanger du vin et de la boue.
+Ah {user}, encore {verb} ? C’est ung myracle que tu soys encore debout.
+{nom} ? Sérieux ? Mesme un enffant saurait myeux que toy.
+Oh {user}, t’as déjà échoué avant mesme de commencer à {verb}.
+{user}, chaque foys que tu {verb}, on dirait que tu t'inventes des nouvelles façons de te ryduculyser.
+{nom} et toy, c’est comme l’huile et l’eau. Ça ne prend jamais.
+Franchement {user}, {verb} ? T’as de l’audace... ou de la bêtise, j’hésyte encore.
+{user}, arrête de {verb}, c’est gênant pour tout le monde.
+{nom} ? À chaque foys que t’en parles, j’ai envye de me déconnecter.
+{verb} et toy ? Une belle hystoire d’échec continu.
+Sy tu parloys moins de {nom}, t’aurays au moins l’air un peu plus malyn.
+Ahah {user}, mesme une pierre feroy myeux que toy en {verb}.
+{user}, tu prends {nom} pour quoy ? Un jouet ?
+Encore {verb} ? Sérieusement, c’est ton passe-temps favori de te planter ainsi ?
+{nom} ? Ah non, toy et cela, c’est comme mélanger du vyn et de la boue.
 
 # Phrases Débiles, Immatures et Médiévales
 
-Hahaha {user}, t’as raté {verb} ! Encore ! T'es vraiment mauvais, ça m'rend joyeux !  
-Oh {user}, {nom} c’est quoi ça ? Une farce ? Même un bouffon d'cour feroy mieux !  
-T'as {verb}, mais t'aurais mieux fait d'aller traire des chèvres, t'sais !  
-{nom} ? Sérieux ? T'aurais plus d'chances d'apprivoiser un dragon !  
-Pfff, {user}, j'sais même plus pourquoi tu t'fatigues avec {verb}. Ça s'voit que t'es nul !  
-Hé hé, encore {nom} ? J'parie qu'même ta grand-mère fait ça mieux !  
-Ah non, {user}, tu tentes encore de {verb} ? C'est d'l'humour ? C'est trop mauvais !  
-{nom} et toi, c'est comme moi et la politesse : ça n'colle pas du tout !  
-Hahaha {user}, continue comme ça, tu vas finir par inventer l'échec ultime !  
-Oh oh {user}, {verb} encore ? Tu veux m'faire croire que tu sais faire des trucs ? Haha !  
-{nom} ? Pwahaha, sérieux {user}, ça te va comme une épée en beurre dans la mêlée !  
-Allez, {user}, arrête tout de suite {verb}, t’es juste un ramassis d'maladresses !  
-Hihihi, t'essaies encore de {verb}, mais tu réussis juste à m'faire marrer, bravo !  
-{nom} et toi ? Une belle paire d'idiots !  
-Pfffff, {user}, laisse tomber {verb}, j'me fatigue même plus à t'regarder échouer.
+Hahaha {user}, t’as raté {verb} ! Encore ! T'es vraiment mauvais, cela me rend joyeux !
+Oh {user}, {nom} c’est quoy cela ? Une farce ? Mesme un bouffon d'cour feroy myeux !
+T'as {verb}, mais t'aurais myeux fait d'aller traire des chèvres, tu sçays !
+{nom} ? Sérieux ? T'aurais plus de chances d’appryvoiser ung dragon !
+Pfff, {user}, je ne sçay mesme plus pourquoy tu t'fatigues avec {verb}. Ça s’voit que t'es nul !
+Hé hé, encore {nom} ? J'parye qu'mesme ta grand-mère fait cela myeux !
+Ah non, {user}, tu tentes encore de {verb} ? C'est de l'humour ? C'est trop mauvais !
+{nom} et toy, c'est comme moy et la polytess : cela ne colle pas du tout !
+Hahaha {user}, continue comme cela, tu vas finir par inventer l’échec ultime !
+Oh oh {user}, {verb} encore ? Tu veux me faire croyr que tu sçays faire des trucs ? Haha !
+{nom} ? Pwahaha, sérieux {user}, cela te va comme une espée en beurre dans la melleé !
+Allez, {user}, arrête tout de suite {verb}, tu n’es qu'un ramassy de maladresses !
+Hihihi, t'essaies encore de {verb}, mais tu réussys juste à me faire marrer, bravo !
+{nom} et toy ? Une belle paire d'ydiots !
+Pfffff, {user}, laisse tomber {verb}, je ne me fatigue mesme plus à te regarder échouer.
 
 # Phrases Débiles et Médiévales sur nom
 
-Oh, {user}, {nom} encore ? Par ma foi, tu fais vraiment pitié !  
-Hé bien, {user}, t’as choisi {nom} comme nouveau projet ? T’as fort bien pris le chemin de l’échec !  
-Tu sembles fort accro à {nom}, n'est-ce pas ? Comme un écureuil s'acharnant sur une noisette moisie !  
-Allez donc, {user}, cesse de parler de {nom}, cela devient fort gênant.  
-{nom} ? Parbleu, on dirait que tu rimes avec l’absurde, {user} !  
-Hahaha, {user}, t'as {nom} dans l'esprit tel un écuyer rêve d'honneur !  
-Veux-tu vraiment encore parler de {nom} ? C'est comme amener un pigeon à un banquet, quel non-sens !  
-Oh, {user}, si {nom} était un gâteau, tu serais le premier à y tomber tout entier !  
-Quand tu prononces {nom}, je m’interroge si tu as jamais compris ce qu’est le bon sens !  
-Ah, {user}, t'as choisi {nom} comme compagnon ? Je t'en prie, trouve-toi un ami de meilleure tenue !  
-{nom} et toi, c'est tel un dragon sans feu, c'est fort ennuyeux à pleurer !  
-Mais poursuis donc ton discours sur {nom}, cela m'amuse, c'est comme contempler un spectacle de marionnettes !  
-{user}, si {nom} était une quête, tu serais le héros fuyant au premier obstacle !  
-Cesse de parler de {nom}, {user}, cela nous cause tous douleur aux oreilles !  
-{nom} encore ? Je te le dis, tu veux vraiment passer pour l’idiot du village, quel exploit !
+Oh, {user}, {nom} encore ? Par ma foy, tu fais vraiment pitié !
+Hé bien, {user}, t’as choisi {nom} comme nouveau projet ? T’as fort bien pris le chemin de l’échec !
+Tu sembles fort accro à {nom}, n'est-ce pas ? Comme un écureuyl s’acharnant sur une noyssette moisye !
+Allez donc, {user}, cesse de parler de {nom}, cela devient fort gênant.
+{nom} ? Parbleu, on dirait que tu rymes avec l’absurde, {user} !
+Hahaha, {user}, t'as {nom} dans l’esprit tel un escuyer rêve d'honneur !
+Veux-tu vraiment encore parler de {nom} ? C'est comme amener ung pygeon à un banquet, quel non-sens !
+Oh, {user}, sy {nom} estoit ung gâteau, tu seroys le premier à y tomber tout entier !
+Quand tu prononces {nom}, je m’interroge sy tu as jamais compris ce qu’est le bon sens !
+Ah, {user}, t'as choisi {nom} comme compagnon ? Je t'en pry, trouve-toy un amy de meilleure tenue !
+{nom} et toy, c'est tel ung dragon sans feu, c'est fort ennuyeux à pleurer !
+Mais poursuy donc ton discours sur {nom}, cela m'amuse, c'est comme contempler un spectacle de marionnettes !
+{user}, sy {nom} estoit une quête, tu seroys le héros fuyant au premier obstacle !
+Cesse de parler de {nom}, {user}, cela nous cause tous douleur aux oreilles !
+{nom} encore ? Je te le dys, tu veux vraiment passer pour l’ydiot du village, quel exployt !
 
 # Phrases Courtes et Insultantes sur {nom}
 
-{user}, t’es aussi utile que {nom} à un banquet de nobles !  
-Oh, {user}, encore {nom} ? T’es un vrai paltoquet, c’est risible !  
-Ah {user}, avec {nom}, tu fais vraiment pitié, comme un gueux à la porte d’un château !  
-{nom} ? Pfff, t’es qu’un vaurien, j’en peux plus !  
-Hé {user}, t’as {nom} dans la tête, ou t’es juste un fou du roi ?  
-Par tous les saints, {user}, t’es aussi brillant qu’un âne en armure avec {nom} !  
-Tu parles de {nom} ? Quel drôle de débauché tu fais, {user} !  
-Ah, {user}, t’es un vrai luron, à causer de {nom} comme d’un trésor !  
-{user}, si {nom} était une insulte, tu serais le roi du pays des balourds !  
-Avec {nom}, tu t’fais passer pour un benêt, {user}, c'est un fait !  
-Encore {nom}, {user} ? Tu sembles bien être un charlatan !  
-{user}, tu es le sage des sots à discuter de {nom} !
-
+{user}, t’es aussi utile que {nom} à un banquet de nobles !
+Oh, {user}, encore {nom} ? T’es ung vray paltoquet, c’est rysyble !
+Ah {user}, avec {nom}, tu fais vraiment pitié, comme ung gueux à la porte d’un château !
+{nom} ? Pfff, t’es qu’un vaurien, j’en peux plus !
+Hé {user}, t’as {nom} dans la teste, ou t’es juste ung fou du roy ?
+Par tous les saints, {user}, t’es aussi bryllant qu’un âne en armure avec {nom} !
+Tu parles de {nom} ? Quel drôle de débauché tu fais, {user} !
+Ah, {user}, t’es un vray luron, à causer de {nom} comme d’un trésor !
+{user}, sy {nom} estoit une insulte, tu seroys le roy du pays des balourds !
+Avec {nom}, tu te fais passer pour un benêt, {user}, c'est un faict !
+Encore {nom}, {user} ? Tu sembles bien estre ung charlatan !
+{user}, tu es le sage des sots à dyscuter de {nom} !
 
 # Phrases Black Pills Médiévales Horribles sur {nom}
 
-Ah, {user}, de nouveau à deviser de {nom} ? Même les vers de terre ont plus de prix dans l'ordre des choses.  
-Sache, {user}, que si {nom} fût une promesse, ce ne serait que celle d'un fou à la recherche de sa raison.  
-Hahaha, {user}, {nom} ne te fera jamais héros, mais t'assignera le triste sort d'un sire à la fin de son chemin.  
-Avec {nom}, tu es aussi égaré qu'un enfant perdu dans une forêt enchantée, sans espoir de retour.  
-Oh, {user}, évoquer {nom} c'est pleurer sur un verre brisé : rien ne change à la dure réalité.  
-{nom} ? C'est un mirage, {user}, un espoir vain dans un monde de désolation.  
-Hé, {user}, ton obsession pour {nom} te rend aussi risible qu'un bouffon sans masque.  
-Avec {nom}, tu deviens le héraut de ta propre déchéance, un véritable drame en cours d’écriture.  
-{user}, continue à rêver avec {nom}, mais sache que la réalité n’est point un conte de fées.  
-{nom} t’emporte dans l’abîme, {user}, tel un vaisseau sans capitaine dans une mer tempétueuse.  
-Ah, {user}, chaque mot que tu prononces sur {nom} te fait glisser un peu plus vers le néant.  
-Tu parles de {nom} ? Même les spectres te mépriseraient pour cela, {user}.
+Ah, {user}, de nouveau à deviser de {nom} ? Mesme les vers de terre ont plus de pryx dans l'ordre des choses.
+Sache, {user}, que sy {nom} fût une promesse, ce ne seroyt que celle d'un fou à la recherche de sa rayson.
+Hahaha, {user}, {nom} ne te fera jamais héros, mais t'assignera le triste sort d'un syre à la fin de son chemin.
+Avec {nom}, tu es aussi esgaré qu'un enffant perdu dans une forêt enchantée, sans espoir de retour.
+Oh, {user}, évoquer {nom} c'est pleurer sur un verre brysé : rien ne change à la dure réalytyé.
+{nom} ? C'est un myrage, {user}, un espoir vain dans ung monde de désolation.
+Hé, {user}, ton obsession pour {nom} te rend aussi rysyble qu'un bouffon sans masque.
+Avec {nom}, tu deviens le hérault de ta propre déchéance, un véritable drame en cours d’écriture.
+{user}, continue à rêver avec {nom}, mais sache que la réalité n’est point un conte de fées.
+{nom} t’emporte dans l’abysme, {user}, tel un vaysseau sans capitaine dans une mer tempétueuse.
+Ah, {user}, chaque mot que tu prononces sur {nom} te fait glisser un peu plus vers le néant.
+Tu parles de {nom} ? Mesme les spectres te mépryseraient pour cela, {user}.
 
 # Phrases Philosophico-Cinglantes sur la Vie
 
-Ô {user}, la vie te sourit comme un loup à un agneau, je crains que tu ne comprennes jamais l'art de la survie.  
-Hélas, {user}, ton existence est telle une ombre vacillante, égarée dans le brouillard des illusions.  
-Dis-moi, {user}, crois-tu vraiment que le monde se pliera à tes caprices ? Même les cailloux ne daigneraient s'incliner devant ton inertie.  
-Ah, {user}, vivre sans sagesse, c'est comme brandir une épée rouillée, il est peu probable que tu tranchasses quoi que ce soit de véritable.  
-Tu es tel un oiseau sans ailes, {user}, cherchant à toucher les cieux tout en rampant dans la boue de ton ignorance.  
-Sais-tu, {user}, que chaque moment de ta vie ressemble à un banquet où tu es le seul à ne pas avoir été convié ?  
-Le vent de la destinée souffle, {user}, mais tu sembles tantôt être une pierre, tantôt un buisson, sans jamais comprendre la direction.  
-Ah, {user}, tu poursuis tes rêves tels des mirages, ignorant que l'eau se dérobe toujours sous les pas des insensés.  
-La sagesse, {user}, n'est point acquise en errant comme un fou dans les champs de l'ignorance, mais je suppose que tu préfères l'aveuglement.  
-Ô {user}, tes tentatives d'atteindre la grandeur sont aussi ridicules qu'un coq chantant à minuit, persuadé qu'il est maître du temps.  
-En vérité, {user}, vivre sans introspection, c'est comme naviguer en mer sans boussole, et je crains que tu sois ce marin égaré.  
-Ah, {user}, l'ironie de ton existence, c'est que même le flot de la vie t'a oublié dans sa course effrénée.
+Ô {user}, la vye te souryt comme un loup à un agneau, je crains que tu ne comprennes jamais l'art de la survye.
+Hélas, {user}, ton existence est telle une ombre vacillante, esgarée dans le brouillard des illusions.
+Dys-moy, {user}, croys-tu vraiment que le monde se plyera à tes capryces ? Mesme les cailloux ne daigneroyent s'incliner devant ton inertye.
+Ah, {user}, vyvre sans sagesse, c'est comme brandyr une espée rouillée, il est peu probable que tu tranchasses quelque chose de véritable.
+Tu es tel un oiseau sans ayles, {user}, cherchant à toucher les cieux tout en rampant dans la boue de ton ignorance.
+Sçays-tu, {user}, que chaque moment de ta vye ressemble à un banquet où tu es le seul à ne pas avoir esté convyé ?
+Le vent de la destinée souffle, {user}, mais tu sembles tantôt une pierre, tantôt un buisson, sans jamais comprendre la dyrection.
+Ah, {user}, tu poursuyes tes rêves tels des myrages, ignorant que l’eau se dérobe toujours sous les pas des insensés.
+La sagesse, {user}, n’est point acquise en errant comme un fou dans les champs de l’ignorance, mais je suppose que tu préfères l’aveuglement.
+Ô {user}, tes tentatives d'atteindre la grandeur sont aussi ryducule qu’un coq chantant à mynuyt, persuadé qu’il est maître du temps.
+En vérité, {user}, vyvre sans introspection, c’est comme naviguer en mer sans boussole, et je crains que tu soys ce maryn esgaré.
+Ah, {user}, l’yronye de ton existence, c’est que mesme le flot de la vye t'a oublié dans sa course effrénée.
 
+
+Par ma foy, {user}, sy {nom} estoit une espée, tu t'en seroyes déjà coupé les deux pieds !
+Par tous les dyables, {user}, sy {verb} estoit un art, tu seroys l'apprenty qui peynt avec ses coudes !
+Sacrebleu, {user}, sy {nom} estoit une couronne, tu la porterais à l’envers sans mesme t'en rendre compte !
+Ah, {user}, sy {verb} estoit une bataille, tu seroys le premier à prendre la fuite en trébuchant sur ton propre bouclier !
+Par ma barbe, {user}, sy {nom} estoit une quête, tu t’es fourvoyé dès l'entrée de la taverne !
+{user}, sy {verb} te semble facile, c’est que tu n’as jamais bien regardé ce que tu fais. Mesme un âne saurait myeux !
+Par ma foy, {user}, sy {nom} estoit un trésor, tu l'aurays vendu pour un verre de vin aigre !
+Ô {user}, sy {verb} estoit une chanson, ce seroyt la plus fausse note que l’on ayt jamais entendue dans ce royaume !
+Sy {nom} estoit un destrier, {user}, tu seroys tombé avant mesme d’avoir mys le pied dans l’étrier !
+Hé, {user}, sy {verb} estoit un duel, tu aurays esté désarmé par ta propre maladresse avant mesme que l’adversaire n’approche !
+Ah, {user}, sy {nom} estoit une tour de garde, elle seroyt tombée à cause de ton insoucyance avant mesme l’arrivée des assaillants !
+Par tous les dyables, {user}, sy {verb} estoit une science, tu en seroys l'exemple parfait de l’échec le plus retentyssant !
+Ah, {user}, sy {nom} estoit une victoyre, tu aurays trouvé le moyen de la transformer en défaicte avant mesme que la bataille ne commence !
+{user}, sy {verb} estoit un art, tes œuvres seroyent des croûtes que mesme un bouffon ne daigneroyt accrocher !
+Par ma foy, {user}, sy {nom} estoit une couronne, tu la porterays comme un sot porte un bonnet, sans honneur ny prestige.
+Ah, {user}, sy {verb} estoit un duel, tu seroys celuy qui se bat avec une cuillère, convaincu d’avoir une espée en main.
+Par tous les saints, {user}, sy {nom} estoit un destrier, tu l’aurays laissé dans l’écurie, trop peureux pour le monter.
+Ô {user}, sy {verb} estoit un serment, tu l’aurays déjà brysé pour un simple verre de cidre au coing de l’auberge.
+Ah, {user}, sy {nom} estoit une tapyserie, tu l’aurays déchirée sans mesme t'en rendre compte, pensant la protéger.
+Par tous les saints, {user}, sy {verb} estoit un cry de guerre, tu aurays réveillé les morts... de ryr.
+Ah, {user}, sy {nom} estoit une bannière, elle se seroyt enroulée autour de toy, te laissant étouffer dans ton propre ryducule.
 

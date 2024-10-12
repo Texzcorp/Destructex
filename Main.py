@@ -123,7 +123,7 @@ class Bot(commands.Bot):
                 return
 
             # Chance de réponse (ajustez la probabilité pour les tests)
-            if random.random() < 0.1:
+            if random.random() < 0.2:
                 print("J'attaque!")
                 parsed_message = traiter_phrase(message.content)
                 print(f"> Message décortiqué : {parsed_message}")
